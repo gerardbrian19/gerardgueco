@@ -8,6 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.17",
+    "next-page-transitions": "^1.0.0-beta.2",
+    "react-animated-css": "^1.2.1",
+    "react-burger-menu": "^2.6.13",
+    "react-id-swiper": "^3.0.0",
+    "react-youtube": "^7.11.2",
+    "sass": "^1.26.5",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2",
+    "semantic-ui-react-transition-modal": "^0.1.2",
+    "swiper": "^5.4.1",
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"
