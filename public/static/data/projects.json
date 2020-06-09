@@ -4,8 +4,8 @@
     "slug": "coinflip",
     "desc": "A cloud-based payment platform at grocery stores nationwide",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
-    "thumb": "/images/projects/coinflip/thumb.jpg",
-    "logo": "/images/projects/coinflip/logo.png",
+    "thumb": "/static/images/projects/coinflip/thumb.jpg",
+    "logo": "/static/images/projects/coinflip/logo.png",
     "theme": "dark",
     "credit": "Project under &nbsp; <i><a target=\"_blank\" href=\"https://oakslab.com/\">●●○</a></i>",
     "role": "front-end engineer",
@@ -19,43 +19,43 @@
     ],
     "preview": [
       {
-        "img": "/images/projects/coinflip/1.png",
+        "img": "/static/images/projects/coinflip/1.png",
         "caption": "Login Page"
       },
       {
-        "img": "/images/projects/coinflip/2.png",
+        "img": "/static/images/projects/coinflip/2.png",
         "caption": "Sign-up Page"
       },
       {
-        "img": "/images/projects/coinflip/3.png",
+        "img": "/static/images/projects/coinflip/3.png",
         "caption": "Landing Page"
       },
       {
-        "img": "/images/projects/coinflip/4.png",
+        "img": "/static/images/projects/coinflip/4.png",
         "caption": "Landing Page #2"
       },
       {
-        "img": "/images/projects/coinflip/5.png",
+        "img": "/static/images/projects/coinflip/5.png",
         "caption": "Groceries Page"
       },
       {
-        "img": "/images/projects/coinflip/6.png",
+        "img": "/static/images/projects/coinflip/6.png",
         "caption": "Groceries Page #2"
       },
       {
-        "img": "/images/projects/coinflip/7.png",
+        "img": "/static/images/projects/coinflip/7.png",
         "caption": "Offers Page"
       },
       {
-        "img": "/images/projects/coinflip/8.png",
+        "img": "/static/images/projects/coinflip/8.png",
         "caption": "Card Linking Page"
       },
       {
-        "img": "/images/projects/coinflip/9.png",
+        "img": "/static/images/projects/coinflip/9.png",
         "caption": "Profile Page"
       },
       {
-        "img": "/images/projects/coinflip/10.png",
+        "img": "/static/images/projects/coinflip/10.png",
         "caption": "Wallet Page"
       }
     ],
@@ -73,8 +73,8 @@
     "slug": "sindro",
     "desc": "An online platform focused on simplicity and top of the line UX for fitness studios.",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
-    "thumb": "/images/projects/sindro/thumb.jpg",
-    "logo": "/images/projects/sindro/logo.svg",
+    "thumb": "/static/images/projects/sindro/thumb.jpg",
+    "logo": "/static/images/projects/sindro/logo.svg",
     "theme": "dark",
     "credit": "Project under &nbsp; <i><a target=\"_blank\" href=\"https://oakslab.com/\">●●○</a></i>",
     "role": "front-end engineer",
@@ -88,27 +88,27 @@
     ],
     "preview": [
       {
-        "img": "/images/projects/sindro/1.png",
+        "img": "/static/images/projects/sindro/1.png",
         "caption": "Login Page"
       },
       {
-        "img": "/images/projects/sindro/2.png",
+        "img": "/static/images/projects/sindro/2.png",
         "caption": "Calendar View Page"
       },
       {
-        "img": "/images/projects/sindro/3.png",
+        "img": "/static/images/projects/sindro/3.png",
         "caption": "Clients Page"
       },
       {
-        "img": "/images/projects/sindro/4.png",
+        "img": "/static/images/projects/sindro/4.png",
         "caption": "Profile Page"
       },
       {
-        "img": "/images/projects/sindro/5.png",
+        "img": "/static/images/projects/sindro/5.png",
         "caption": "Activity Page"
       },
       {
-        "img": "/images/projects/sindro/6.png",
+        "img": "/static/images/projects/sindro/6.png",
         "caption": "Groups Page"
       }
     ],
@@ -127,8 +127,8 @@
     "slug": "lifebrand",
     "desc": "Utilized machine learning platform, that scans social media for inappropriate or controversial material, and removes it. ",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
-    "thumb": "/images/projects/lifebrand/thumb.jpg",
-    "logo": "/images/projects/lifebrand/logo.svg",
+    "thumb": "/static/images/projects/lifebrand/thumb.jpg",
+    "logo": "/static/images/projects/lifebrand/logo.svg",
     "theme": "dark",
     "credit": "Project under &nbsp; <i><a target=\"_blank\" href=\"https://oakslab.com/\">●●○</a></i>",
     "role": "backend-end engineer",
@@ -143,19 +143,19 @@
     ],
     "preview": [
       {
-        "img": "/images/projects/lifebrand/1.png",
+        "img": "/static/images/projects/lifebrand/1.png",
         "caption": "Login Page"
       },
       {
-        "img": "/images/projects/lifebrand/2.png",
+        "img": "/static/images/projects/lifebrand/2.png",
         "caption": "Subscription Page"
       },
       {
-        "img": "/images/projects/lifebrand/3.png",
+        "img": "/static/images/projects/lifebrand/3.png",
         "caption": "Profile Page"
       },
       {
-        "img": "/images/projects/lifebrand/4.png",
+        "img": "/static/images/projects/lifebrand/4.png",
         "caption": "Purchase Page"
       }
     ],
@@ -173,8 +173,8 @@
     "slug": "minerva",
     "desc": "An integrated mobile app designed for the visually impaired",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
-    "thumb": "/images/projects/minerva/thumb.jpg",
-    "logo": "/images/projects/minerva/logo.png",
+    "thumb": "/static/images/projects/minerva/thumb.jpg",
+    "logo": "/static/images/projects/minerva/logo.png",
     "theme": "dark",
     "languages": [
       "react-native",
@@ -188,11 +188,11 @@
     ],
     "preview": [
       {
-        "img": "/images/projects/minerva/thumb.jpg",
+        "img": "/static/images/projects/minerva/thumb.jpg",
         "caption": "Cover photo for Play Store"
       },
       {
-        "img": "/images/projects/minerva/brochure.jpg",
+        "img": "/static/images/projects/minerva/brochure.jpg",
         "caption": "Brochure"
       },
       {
@@ -222,45 +222,45 @@
     "slug": "lpu",
     "desc": "A website of <i>lpulaguna.edu.ph</i> converted into a native app",
     "summary": "...",
-    "thumb": "/images/projects/lpu/thumb.jpg",
-    "logo": "/images/projects/lpu/logo.png",
+    "thumb": "/static/images/projects/lpu/thumb.jpg",
+    "logo": "/static/images/projects/lpu/logo.png",
     "theme": "dark",
     "languages": ["android-java", "php", "mysql"],
     "preview": [
       {
-        "img": "/images/projects/lpu/lpu(1).jpg",
+        "img": "/static/images/projects/lpu/lpu (1).jpg",
         "caption": "Splash Screen"
       },
       {
-        "img": "/images/projects/lpu/lpu (2).jpg",
+        "img": "/static/images/projects/lpu/lpu (2).jpg",
         "caption": "Main Screen"
       },
       {
-        "img": "/images/projects/lpu/lpu(3).jpg",
+        "img": "/static/images/projects/lpu/lpu (3).jpg",
         "caption": "About LPU-Laguna Screen"
       },
       {
-        "img": "/images/projects/lpu/lpu (4).jpg",
+        "img": "/static/images/projects/lpu/lpu (4).jpg",
         "caption": "Academics Navigation Screen"
       },
       {
-        "img": "/images/projects/lpu/lpu (5).jpg",
+        "img": "/static/images/projects/lpu/lpu (5).jpg",
         "caption": "Sample (CAM) of Academic Screen"
       },
       {
-        "img": "/images/projects/lpu/lpu (6).jpg",
+        "img": "/static/images/projects/lpu/lpu (6).jpg",
         "caption": "Campus Life Screen"
       },
       {
-        "img": "/images/projects/lpu/lpu (7).jpg",
+        "img": "/static/images/projects/lpu/lpu (7).jpg",
         "caption": "Campus Life Screen"
       },
       {
-        "img": "/images/projects/lpu/lpu (8).jpg",
+        "img": "/static/images/projects/lpu/lpu (8).jpg",
         "caption": "Admission Screen"
       },
       {
-        "img": "/images/projects/lpu/lpu (9).jpg",
+        "img": "/static/images/projects/lpu/lpu (9).jpg",
         "caption": "Follow Us Screen"
       }
     ],
@@ -278,8 +278,8 @@
     "slug": "cornelia",
     "desc": "A platform for building chatbots without coding",
     "summary": "...",
-    "thumb": "/images/projects/cornelia/thumb.jpg",
-    "logo": "/images/projects/cornelia/logo.png",
+    "thumb": "/static/images/projects/cornelia/thumb.jpg",
+    "logo": "/static/images/projects/cornelia/logo.png",
     "theme": "light",
     "credit": "Project under <i><a target=\"_blank\" href=\"https://www.techoneglobal.com/\">Tech One Global Inc.</a></i>",
     "languages": [
@@ -307,8 +307,8 @@
     "slug": "phoebe",
     "desc": "An SPA react-app made for Accenture AI Training Team",
     "summary": "...",
-    "thumb": "/images/projects/phoebe/bg.jpg",
-    "logo": "/images/projects/phoebe/logo.png",
+    "thumb": "/static/images/projects/phoebe/bg.jpg",
+    "logo": "/static/images/projects/phoebe/logo.png",
     "theme": "light",
     "credit": "Project under &nbsp; <i><a target=\"_blank\" href=\"https://www.accenture.com/ph-en/\">Accenture Philippines</a></i>",
     "languages": [
@@ -322,15 +322,15 @@
     ],
     "preview": [
       {
-        "img": "/images/projects/phoebe/1.gif",
+        "img": "/static/images/projects/phoebe/1.gif",
         "caption": ""
       },
       {
-        "img": "/images/projects/phoebe/2.gif",
+        "img": "/static/images/projects/phoebe/2.gif",
         "caption": ""
       },
       {
-        "img": "/images/projects/phoebe/3.gif",
+        "img": "/static/images/projects/phoebe/3.gif",
         "caption": ""
       }
     ],
@@ -348,8 +348,8 @@
     "slug": "project-sophia",
     "desc": "A prototype of an AI-powered self-service checkout system. It recognizes human faces and verifies the person once he smile on the camera. It can also provide relevant commercials based on face features.",
     "summary": "...",
-    "thumb": "/images/projects/project-sophia/bg.jpg",
-    "logo": "/images/projects/project-sophia/logo.png",
+    "thumb": "/static/images/projects/project-sophia/bg.jpg",
+    "logo": "/static/images/projects/project-sophia/logo.png",
     "theme": "light",
     "languages": ["ai", "cognitive-services", "html5", "electron"],
     "credit": "Project under DX Team of &nbsp; <i><a target=\"_blank\" href=\"https://www.microsoft.com/en-ph\">Microsoft Philippines</a></i>",
@@ -367,53 +367,53 @@
     "slug": "magezi",
     "desc": "An SPA wordpress made for a startup \"Magezi Trainings and Educational Services\"",
     "summary": "...",
-    "thumb": "/images/projects/magezi/bg.jpg",
-    "logo": "/images/projects/magezi/logo.png",
+    "thumb": "/static/images/projects/magezi/bg.jpg",
+    "logo": "/static/images/projects/magezi/logo.png",
     "theme": "light",
     "languages": ["php", "jquery", "bootstrap", "wordpress", "mysql"],
     "preview": [
       {
-        "img": "/images/projects/magezi/1.jpg",
+        "img": "/static/images/projects/magezi/1.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/magezi/2.jpg",
+        "img": "/static/images/projects/magezi/2.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/magezi/3.jpg",
+        "img": "/static/images/projects/magezi/3.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/magezi/4.jpg",
+        "img": "/static/images/projects/magezi/4.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/magezi/5.jpg",
+        "img": "/static/images/projects/magezi/5.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/magezi/6.jpg",
+        "img": "/static/images/projects/magezi/6.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/magezi/7.jpg",
+        "img": "/static/images/projects/magezi/7.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/magezi/8.jpg",
+        "img": "/static/images/projects/magezi/8.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/magezi/9.jpg",
+        "img": "/static/images/projects/magezi/9.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/magezi/10.jpg",
+        "img": "/static/images/projects/magezi/10.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/magezi/11.jpg",
+        "img": "/static/images/projects/magezi/11.jpg",
         "caption": ""
       }
     ],
@@ -431,8 +431,8 @@
     "slug": "lufthansa-ph-careers",
     "desc": "Careers website for Lufthansa Philippines",
     "summary": "...",
-    "thumb": "/images/projects/lufthansa-ph-careers/bg.jpg",
-    "logo": "/images/projects/lufthansa-ph-careers/logo.png",
+    "thumb": "/static/images/projects/lufthansa-ph-careers/bg.jpg",
+    "logo": "/static/images/projects/lufthansa-ph-careers/logo.png",
     "theme": "dark",
     "credit": "Project with a team &nbsp;<small>(My role: <i>Full-Stack</i>)</small> &nbsp; under &nbsp; <i><a target=\"_blank\" href=\"https://www.techoneglobal.com/\">Tech One Global Inc.</a></i> &nbsp; and &nbsp; <i><a target=\"_blank\" href=\"https://www.lht-philippines.com/\">Lufthansa Technik Philippines</a></i>",
     "languages": [
@@ -445,7 +445,7 @@
     ],
     "preview": [
       {
-        "img": "/images/projects/lufthansa-ph-careers/bg.jpg",
+        "img": "/static/images/projects/lufthansa-ph-careers/bg.jpg",
         "caption": "Login Screen"
       }
     ],
@@ -463,8 +463,8 @@
     "slug": "lufthansa-ph-cmr",
     "desc": "CMR module for Lufthansa Philippines' Sharepoint Site",
     "summary": "...",
-    "thumb": "/images/projects/lufthansa-ph-cmr/bg.jpg",
-    "logo": "/images/projects/lufthansa-ph-careers/logo.png",
+    "thumb": "/static/images/projects/lufthansa-ph-cmr/bg.jpg",
+    "logo": "/static/images/projects/lufthansa-ph-careers/logo.png",
     "theme": "dark",
     "credit": "Project under &nbsp; <i><a target=\"_blank\" href=\"https://www.techoneglobal.com/\">Tech One Global Inc.</a></i> &nbsp; and &nbsp; <i><a target=\"_blank\" href=\"https://www.lht-philippines.com/\">Lufthansa Technik Philippines</a></i>",
     "languages": [
@@ -478,7 +478,7 @@
     ],
     "preview": [
       {
-        "img": "/images/projects/lufthansa-ph-cmr/bg.jpg",
+        "img": "/static/images/projects/lufthansa-ph-cmr/bg.jpg",
         "caption": "Initial Page"
       }
     ],
@@ -495,57 +495,57 @@
     "name": "TeeConcepts",
     "slug": "teeconcepts",
     "desc": "A custom e-commerce website for a t-shirt business",
-    "thumb": "/images/projects/teeconcepts/thumb.jpg",
-    "logo": "/images/projects/teeconcepts/logo.png",
+    "thumb": "/static/images/projects/teeconcepts/thumb.jpg",
+    "logo": "/static/images/projects/teeconcepts/logo.png",
     "theme": "dark",
     "languages": ["php", "jquery", "bootstrap", "mysql", "paypal-api"],
     "preview": [
       {
-        "img": "/images/projects/teeconcepts/thumb.jpg",
+        "img": "/static/images/projects/teeconcepts/thumb.jpg",
         "caption": "Preview"
       },
       {
-        "img": "/images/projects/teeconcepts/1.jpg",
+        "img": "/static/images/projects/teeconcepts/1.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/teeconcepts/2.jpg",
+        "img": "/static/images/projects/teeconcepts/2.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/teeconcepts/3.jpg",
+        "img": "/static/images/projects/teeconcepts/3.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/teeconcepts/4.jpg",
+        "img": "/static/images/projects/teeconcepts/4.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/teeconcepts/5.jpg",
+        "img": "/static/images/projects/teeconcepts/5.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/teeconcepts/6.jpg",
+        "img": "/static/images/projects/teeconcepts/6.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/teeconcepts/7.jpg",
+        "img": "/static/images/projects/teeconcepts/7.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/teeconcepts/8.jpg",
+        "img": "/static/images/projects/teeconcepts/8.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/teeconcepts/9.jpg",
+        "img": "/static/images/projects/teeconcepts/9.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/teeconcepts/10.jpg",
+        "img": "/static/images/projects/teeconcepts/10.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/teeconcepts/11.jpg",
+        "img": "/static/images/projects/teeconcepts/11.jpg",
         "caption": ""
       }
     ],
@@ -557,8 +557,8 @@
     "slug": "minerva-plus",
     "desc": "A prototype of an AI-powered app that aims to help job seekers improve their interview skills by monitoring their body gestures while doing a mock-up job interview through their smartphone",
     "summary": "...",
-    "thumb": "/images/projects/minerva-plus/bg.jpg",
-    "logo": "/images/projects/minerva-plus/logo.png",
+    "thumb": "/static/images/projects/minerva-plus/bg.jpg",
+    "logo": "/static/images/projects/minerva-plus/logo.png",
     "theme": "light",
     "languages": ["html5", "ai"],
     "preview": [
@@ -575,8 +575,8 @@
     "slug": "miui8-idea",
     "desc": "An idea for Xiaomi's MIUI Version 8",
     "summary": "...",
-    "thumb": "/images/projects/miui8/bg.jpg",
-    "logo": "/images/projects/miui8/logo.png",
+    "thumb": "/static/images/projects/miui8/bg.jpg",
+    "logo": "/static/images/projects/miui8/logo.png",
     "theme": "light",
     "languages": ["after-fx"],
     "preview": [
@@ -593,37 +593,37 @@
     "slug": "staffapp-md",
     "desc": "A UI design for Staffapp MD dashboard",
     "summary": "...",
-    "thumb": "/images/projects/staffapp/1.jpg",
-    "logo": "/images/projects/staffapp/logo.png",
+    "thumb": "/static/images/projects/staffapp/1.jpg",
+    "logo": "/static/images/projects/staffapp/logo.png",
     "theme": "dark",
     "languages": ["photoshop"],
     "preview": [
       {
-        "img": "/images/projects/staffapp/1.jpg",
+        "img": "/static/images/projects/staffapp/1.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/staffapp/2.jpg",
+        "img": "/static/images/projects/staffapp/2.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/staffapp/3.jpg",
+        "img": "/static/images/projects/staffapp/3.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/staffapp/4.jpg",
+        "img": "/static/images/projects/staffapp/4.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/staffapp/5.jpg",
+        "img": "/static/images/projects/staffapp/5.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/staffapp/6.jpg",
+        "img": "/static/images/projects/staffapp/6.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/staffapp/7.jpg",
+        "img": "/static/images/projects/staffapp/7.jpg",
         "caption": ""
       }
     ],
@@ -641,57 +641,57 @@
     "slug": "st-cabrini",
     "desc": "A UI design for the portal of St. Cabrini Hospital",
     "summary": "...",
-    "thumb": "/images/projects/cabrini/1.jpg",
-    "logo": "/images/projects/cabrini/logo.png",
+    "thumb": "/static/images/projects/cabrini/1.jpg",
+    "logo": "/static/images/projects/cabrini/logo.png",
     "theme": "dark",
     "languages": ["photoshop"],
     "preview": [
       {
-        "img": "/images/projects/cabrini/1.jpg",
+        "img": "/static/images/projects/cabrini/1.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/cabrini/2.0.jpg",
+        "img": "/static/images/projects/cabrini/2.0.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/cabrini/2.1.jpg",
+        "img": "/static/images/projects/cabrini/2.1.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/cabrini/3.jpg",
+        "img": "/static/images/projects/cabrini/3.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/cabrini/4.jpg",
+        "img": "/static/images/projects/cabrini/4.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/cabrini/5.jpg",
+        "img": "/static/images/projects/cabrini/5.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/cabrini/6.jpg",
+        "img": "/static/images/projects/cabrini/6.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/cabrini/7.jpg",
+        "img": "/static/images/projects/cabrini/7.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/cabrini/8.jpg",
+        "img": "/static/images/projects/cabrini/8.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/cabrini/8.1.jpg",
+        "img": "/static/images/projects/cabrini/8.1.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/cabrini/9.jpg",
+        "img": "/static/images/projects/cabrini/9.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/cabrini/10.jpg",
+        "img": "/static/images/projects/cabrini/10.jpg",
         "caption": ""
       }
     ],
@@ -709,13 +709,13 @@
     "slug": "gwa-calculator",
     "desc": "A web app to calculate GWA for LPU-Laguna students",
     "summary": "...",
-    "thumb": "/images/projects/gwa-calculator/bg.jpg",
-    "logo": "/images/projects/lpu/logo.png",
+    "thumb": "/static/images/projects/gwa-calculator/bg.jpg",
+    "logo": "/static/images/projects/lpu/logo.png",
     "theme": "dark",
     "languages": ["php", "jquery", "html5", "jquery"],
     "preview": [
       {
-        "img": "/images/projects/gwa-calculator/bg.jpg",
+        "img": "/static/images/projects/gwa-calculator/bg.jpg",
         "caption": "Splash Screen"
       }
     ],
@@ -733,8 +733,8 @@
     "slug": "lms-lpu-laguna",
     "desc": "An Integrated Library Management System for LPU-Laguna",
     "summary": "...",
-    "thumb": "/images/projects/lms-lpu-laguna/bg.jpg",
-    "logo": "/images/projects/lpu/logo.png",
+    "thumb": "/static/images/projects/lms-lpu-laguna/bg.jpg",
+    "logo": "/static/images/projects/lpu/logo.png",
     "theme": "dark",
     "languages": ["java"],
     "preview": [
@@ -743,39 +743,39 @@
         "caption": "Demo"
       },
       {
-        "img": "/images/projects/lms-lpu-laguna/3.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna/3.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna/3.1.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna/3.1.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna/4.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna/4.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna/5.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna/5.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna/7.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna/7.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna/8.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna/8.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna/9.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna/9.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna/10.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna/10.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna/11.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna/11.jpg",
         "caption": ""
       }
     ],
@@ -787,73 +787,73 @@
     "slug": "lms-lpu-laguna-v2",
     "desc": "C# version of Integrated Library Management System for LPU-Laguna",
     "summary": "...",
-    "thumb": "/images/projects/lms-lpu-laguna-v2/16.jpg",
-    "logo": "/images/projects/lpu/logo.png",
+    "thumb": "/static/images/projects/lms-lpu-laguna-v2/16.jpg",
+    "logo": "/static/images/projects/lpu/logo.png",
     "theme": "dark",
     "languages": ["C#"],
     "preview": [
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/1.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/1.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/2.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/2.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/3.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/3.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/4.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/4.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/5.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/5.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/6.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/6.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/7.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/7.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/8.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/8.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/9.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/9.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/10.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/10.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/11.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/11.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/12.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/12.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/13.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/13.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/14.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/14.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/15.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/15.jpg",
         "caption": ""
       },
       {
-        "img": "/images/projects/lms-lpu-laguna-v2/16.jpg",
+        "img": "/static/images/projects/lms-lpu-laguna-v2/16.jpg",
         "caption": ""
       }
     ],
@@ -865,8 +865,8 @@
     "slug": "others",
     "desc": "I can also make graphic designs and videos for branding and marketing purposes",
     "summary": "...",
-    "thumb": "/images/projects/others/bg.jpg",
-    "logo": "/images/projects/others/logo.png",
+    "thumb": "/static/images/projects/others/bg.jpg",
+    "logo": "/static/images/projects/others/logo.png",
     "theme": "light",
     "preview": [
       {
@@ -898,99 +898,99 @@
         "caption": "MSP Program Entry"
       },
       {
-        "img": "/images/projects/others/1.jpg",
+        "img": "/static/images/projects/others/1.jpg",
         "caption": "COECS Shirt (2015)"
       },
       {
-        "img": "/images/projects/others/2.jpg",
+        "img": "/static/images/projects/others/2.jpg",
         "caption": "Microsoft Shirt (2017)"
       },
       {
-        "img": "/images/projects/others/3.jpg",
+        "img": "/static/images/projects/others/3.jpg",
         "caption": "COECS Shirt (2016)"
       },
       {
-        "img": "/images/projects/others/4.jpg",
+        "img": "/static/images/projects/others/4.jpg",
         "caption": "Grafika Solutions Logo"
       },
       {
-        "img": "/images/projects/others/5.jpg",
+        "img": "/static/images/projects/others/5.jpg",
         "caption": "LPU-CCS Student Council Logo"
       },
       {
-        "img": "/images/projects/others/6.0.jpg",
+        "img": "/static/images/projects/others/6.0.jpg",
         "caption": "LPU COECS Logo"
       },
       {
-        "img": "/images/projects/others/6.1.jpg",
+        "img": "/static/images/projects/others/6.1.jpg",
         "caption": "LPU COECS Student Council Logo"
       },
       {
-        "img": "/images/projects/others/7.jpg",
+        "img": "/static/images/projects/others/7.jpg",
         "caption": "LPU COECS Logo (old)"
       },
       {
-        "img": "/images/projects/others/8.0.jpg",
+        "img": "/static/images/projects/others/8.0.jpg",
         "caption": "LPU Laguna @ 14 Logo"
       },
       {
-        "img": "/images/projects/others/8.1.jpg",
+        "img": "/static/images/projects/others/8.1.jpg",
         "caption": "CCS Shirt Logo Design"
       },
       {
-        "img": "/images/projects/others/8.2.jpg",
+        "img": "/static/images/projects/others/8.2.jpg",
         "caption": "Computer Programming Society Logo"
       },
       {
-        "img": "/images/projects/others/8.3.jpg",
+        "img": "/static/images/projects/others/8.3.jpg",
         "caption": "DigiThink Logo"
       },
       {
-        "img": "/images/projects/others/9.jpg",
+        "img": "/static/images/projects/others/9.jpg",
         "caption": "Tarpaulin for 3rd Regional Leadership Forum"
       },
       {
-        "img": "/images/projects/others/10.jpg",
+        "img": "/static/images/projects/others/10.jpg",
         "caption": "Microsoft Tarps"
       },
       {
-        "img": "/images/projects/others/11.jpg",
+        "img": "/static/images/projects/others/11.jpg",
         "caption": "Shirt Design"
       },
       {
-        "img": "/images/projects/others/12.jpg",
+        "img": "/static/images/projects/others/12.jpg",
         "caption": "BSIT Group Cover Photo"
       },
       {
-        "img": "/images/projects/others/13.0.jpg",
+        "img": "/static/images/projects/others/13.0.jpg",
         "caption": "TechVolution Wallpaper"
       },
       {
-        "img": "/images/projects/others/13.jpg",
+        "img": "/static/images/projects/others/13.jpg",
         "caption": "CPS 2015 Theme Wallpaper"
       },
       {
-        "img": "/images/projects/others/15.jpg",
+        "img": "/static/images/projects/others/15.jpg",
         "caption": "Lyfers 2013 Logo"
       },
       {
-        "img": "/images/projects/others/16.jpg",
+        "img": "/static/images/projects/others/16.jpg",
         "caption": "Digi360 Flyer"
       },
       {
-        "img": "/images/projects/others/17.jpg",
+        "img": "/static/images/projects/others/17.jpg",
         "caption": "Sample Wedding Invitation Design"
       },
       {
-        "img": "/images/projects/others/18.jpg",
+        "img": "/static/images/projects/others/18.jpg",
         "caption": "Sample Wedding Invitation Design"
       },
       {
-        "img": "/images/projects/others/19.jpg",
+        "img": "/static/images/projects/others/19.jpg",
         "caption": "Sample Birthday Invitation Design"
       },
       {
-        "img": "/images/projects/others/20.jpg",
+        "img": "/static/images/projects/others/20.jpg",
         "caption": "Sample Birthday Invitation Design"
       }
     ],
