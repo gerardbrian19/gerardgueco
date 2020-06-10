@@ -20,7 +20,7 @@ export default class Articles extends Component{
             <Grid className="posts">
                 <Grid.Row>
                     <Grid.Column>
-                        <Link href="/">
+                        <Link href="/articles/first_article">
                             <a>
                                 <Animated>
                                     <Card style={
@@ -39,7 +39,7 @@ export default class Articles extends Component{
                             </a>
 
                         </Link>
-                        <Link href="/">
+                        <Link href="/articles/second_article">
                             <a>
                                 <Animated>
                                     <Card style={
@@ -58,7 +58,7 @@ export default class Articles extends Component{
                             </a>
 
                         </Link>
-                        <Link href="/">
+                        <Link href="/articles/third_article">
                             <a>
                                 <Animated>
                                     <Card style={
@@ -76,7 +76,7 @@ export default class Articles extends Component{
                                 </Animated>
                             </a>
                         </Link>
-                        <Link href="/">
+                        <Link href="/articles/fourth_article">
                             <a>
                                 <Animated>
                                     <Card style={
