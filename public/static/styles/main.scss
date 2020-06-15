@@ -737,6 +737,97 @@ body {
         }
        }
    }
+   .article-content{
+    a{
+    color: black !important;
+    }
+    a:hover{
+        color: #4183c4 !important;
+    }
+    div.soc-icon{
+        text-align: right !important;
+        h2.ui.header a i{
+            margin-right: 0px;
+        }
+    }
+    @media screen and (max-width:767px){
+        div.ui.centered.grid{
+            div.row{
+                div.ten.wide.computer.sixteen.mobile.tablet.column{
+                    div.ui.huge.header{
+                        font-size: 30px !important;
+                        font-weight: 100 !important;
+                        line-height: 40px !important;
+                    }
+                    div.ui.text.fluid.left.aligned.container{
+                        div.author div.ui.grid div.row div.eight.wide.computer.sixteen.mobile.tablet.column div.info{
+                            margin-top: 20px;
+                        }
+                        div.text-content p{
+                            font-size: 18px;
+                            line-height: 32px;
+                            margin-top: 0.86em;
+                            letter-spacing: -0.003em;
+                            margin-bottom: 1.5em;
+                            word-break: break-word;
+                            font-style: normal;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    margin-top: 30px;
+    div.ui.huge.header{
+        font-size: 3em !important;
+        font-weight: 100 !important;
+     }
+     div.author-header h1.ui.right.floated.header i.icon{
+        font-size: .9em !important;
+        opacity: .7 !important;
+    }
+    .text-content{
+        margin-bottom: 80px;
+        p{
+            font-size: 21px;
+            line-height: 32px;
+            margin-top: 0.86em;
+            letter-spacing: -0.003em;
+            margin-bottom: 1.5em;
+            word-break: break-word;
+            font-style: normal;
+            font-weight: 400;
+        }
+    }
+    div.img-group{
+        margin-bottom: 50px;
+      p.center{
+          margin: 10px auto 10px auto;
+          opacity: .7 !important;
+      }
+    }
+    div.claps{
+        margin-top: 20px;
+        div.ui.grid{
+            div.row div.eight.wide.column{
+                div.lft{
+                    display: inline-flex;
+                    div.like div.ui.medium.basic.label{
+                        border: none;
+                    }
+                    div.respo div.ui.medium.basic.label{
+                        border: none;
+                    }
+                }
+                div.rght{
+                    text-align: right;
+                    opacity: .7 !important;
+                }
+            }
+        }
+    }
+   }
    
 
 //-------------------------

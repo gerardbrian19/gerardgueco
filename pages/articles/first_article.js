@@ -113,17 +113,29 @@ export default class First_Article extends Component {
                                         <Header size='huge'>An open letter to recent college graduates</Header>
 
                                         <div className="author-header">
-                                            <Header as='h1' floated='right'>
-                                                <Icon name='twitter'/>
-                                                <Icon name='linkedin'/>
-                                                <Icon name='facebook'/>
-                                            </Header>
-                                            <Header as='h1' floated='left'>
+                                            <Grid>
+                                                <Grid.Row>
+                                                <Grid.Column width={10}>
+                                                <Header as='h1'>
                                                 <Header.Content>
                                                     <Header.Subheader>Gerard Gueco</Header.Subheader>
                                                     <Header.Subheader>Jun 27, 2019 · 4 min read</Header.Subheader>
                                                 </Header.Content>
                                             </Header>
+                                                        </Grid.Column>
+                                                        <Grid.Column width={6}>
+                                                            <div className="soc-icon">
+                                                            <Header as='h2'>
+                                                            
+                                                            <Link href="/"><a><Icon name='twitter'/></a></Link>
+                                                            <Link href="/"><a><Icon name='linkedin'/></a></Link>
+                                                            <Link href="/"><a><Icon name='facebook'/></a></Link>
+                                                        </Header>
+                                                            </div>
+                                                       
+                                                        </Grid.Column>
+                                                </Grid.Row>
+                                            </Grid>
                                         </div>
 
 
@@ -251,9 +263,9 @@ export default class First_Article extends Component {
                                                         </Grid.Column>
                                                         <Grid.Column width={8}>
                                                             <div className="rght">
-                                                                <Icon size='large' name='twitter'/>
-                                                                <Icon size='large' name='linkedin'/>
-                                                                <Icon size='large' name='facebook'/>
+                                                                <Link href="/"><a><Icon size='large' name='twitter'/></a></Link>
+                                                                <Link href="/"><a><Icon size='large' name='linkedin'/></a></Link>
+                                                                <Link href="/"><a><Icon size='large' name='facebook'/></a></Link>
                                                             </div>
                                                         </Grid.Column>
                                                     </Grid.Row>
