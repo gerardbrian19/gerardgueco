@@ -114,17 +114,17 @@ export default class Home extends Component {
                                     <Grid.Column computer={10}
                                         mobile={16}
                                         tablet={16}>
-                                        <div className="featured-headline">
-                                            <Image src='https://cdn-images-1.medium.com/max/1024/1*GGft_aeszJhTQV1sPMzDWQ.jpeg' centered size='huge'/>
+                                        <div className="feature-headline">
+                                            <Image src='https://miro.medium.com/max/2720/1*0UAhL7naxUuBE2lqS9pBcQ.jpeg' centered size='huge'/>
                                             <Header as='h1'>
-                                               <Link href="/articles/first_article"><a>An open letter to recent college graduates</a></Link>
+                                                Dont' Ask What Caused the Spike i Cases. Ask What the U.S. Will Do About Them
                                                 <Header.Subheader>
-                                                    An open letter to recent college graduates
+                                                    We likely won’t know for certain where new cases are coming from. How the U.S. responds to those cases is what really matters
                                                 </Header.Subheader>
                                             </Header>
                                             <Header as='h2'>
                                                 <Header.Subheader>
-                                                    Gerard Gueco in Medium Education Blog
+                                                    Yasmin Tayag in Medium Coronavirus Blog
                                                 </Header.Subheader>
                                                 <Header.Subheader>
                                                     Jun 11 · 4 min read
@@ -138,39 +138,38 @@ export default class Home extends Component {
                                             </Header>
                                             <Item.Group>
                                                 <Item>
-                                                    <Item.Image size='small' src='https://cdn-images-1.medium.com/max/1024/1*OgTVc-8IhuxfpDHzQgXX7Q.jpeg'/>
+                                                    <Item.Image size='small' src='https://miro.medium.com/max/320/0*I3TiS0a273hCok0-'/>
 
                                                     <Item.Content verticalAlign='middle'>
-                                                        <Item.Header as='a'><Link href="/articles/second_article"><a>Portfolio Challenge: From Flat UI to Gradients</a></Link></Item.Header>
-                                                        <Item.Meta>Portfolio Challenge: From Flat UI to Gradients</Item.Meta>
+                                                        <Item.Header as='a'>WFH Taught Me How to Live in the Moment</Item.Header>
+                                                        <Item.Meta>Being cooped up in the crib has forced me to learn (and unlearn) some major habits</Item.Meta>
                                                         <Item.Description>
-                                                            Portfolio Challenge: From Flat UI to Gradients
+                                                            The Only Black Guy In the Office in LEVEL
                                                         </Item.Description>
-                                                        <Item.Extra>Jun 15 · 5 min read</Item.Extra>
+                                                        <Item.Extra>Jun 15 · 5 min read
+                                                            <Icon name='favorite'/></Item.Extra>
                                                     </Item.Content>
                                                 </Item>
                                                 <Item>
-                                                    <Item.Image size='small' src='https://cdn-images-1.medium.com/max/1024/1*PCTSrjA4HThSZKMTBtUkkw.png'/>
+                                                    <Item.Image size='small' src='https://miro.medium.com/max/320/0*O_WVawBCrBy-WXTh'/>
 
                                                     <Item.Content verticalAlign='middle'>
-                                                        <Item.Header as='a'><Link href="/articles/third_article"><a>Managing data with modern JavaScript: map, filter, reduce, find</a></Link></Item.Header>
-                                                        <Item.Meta>Managing data with modern JavaScript: map, filter, reduce, find</Item.Meta>
+                                                        <Item.Header as='a'>negomi/react-burger-menu</Item.Header>
+                                                        {/* <Item.Meta>Description</Item.Meta> */}
                                                         <Item.Description>
-                                                            Managing data with modern JavaScript: map, filter, reduce, find
+                                                            hamburger: An off-canvas sidebar component with a collection of effects and styles using CSS transitions and SVG path...
                                                         </Item.Description>
                                                         <Item.Extra>github.com</Item.Extra>
                                                     </Item.Content>
                                                 </Item>
                                                 <Item>
-                                                    <Item.Image size='small' src='https://cdn-images-1.medium.com/max/800/1*4WytZLPdbUkBTYFKkrxNdQ.gif'/>
+                                                    <Item.Image size='small' src='https://miro.medium.com/max/320/0*fyrM-xp9LumtS-Ow'/>
 
                                                     <Item.Content verticalAlign='middle'>
-                                                        <Item.Header as='a'><Link href="/articles/third_article"><a>I used Next.js + Semantic UI on my React App and it’s awesome!</a></Link>
-                                                            </Item.Header>
-                                                        <Item.Meta>
-                                                            I used Next.js + Semantic UI on my React App and it’s awesome!</Item.Meta>
+                                                        <Item.Header as='a'>Introduction - Semantic UI React</Item.Header>
+                                                        {/* <Item.Meta>Description</Item.Meta> */}
                                                         <Item.Description>
-                                                            I used Next.js + Semantic UI on my React App and it’s awesome!
+                                                            Button Container Divider Flag Header Icon Image Input Label List Loader Placehoder Rail Reveal Segment Step
                                                         </Item.Description>
                                                         <Item.Extra>react-semantic-ui.com</Item.Extra>
                                                     </Item.Content>
@@ -182,50 +181,40 @@ export default class Home extends Component {
                                     <Grid.Column computer={6}
                                         mobile={16}
                                         tablet={16}>
-                                        <div className="featured-stories">
                                         <Header as='h2'>
                                             Featured stories
                                             <Header.Subheader>
                                                 Today’s best stories, picked by our editors.
                                             </Header.Subheader>
                                         </Header>
-                                        </div>
                                     </Grid.Column>
                                 </Grid.Row>
-
-
                                 <Grid.Row columns={2}
                                     only='tablet mobile'>
                                     <Grid.Column computer={10}
                                         mobile={16}
                                         tablet={16}>
-                                            <div className="featured-stories">
-                                            <Header as='h2'>
+                                        <Header as='h2'>
                                             Featured stories
                                             <Header.Subheader>
                                                 Today’s best stories, picked by our editors.
                                             </Header.Subheader>
                                         </Header>
-                                            </div>
-                                        
                                     </Grid.Column>
-
-                                    {/* Mobile Tablet */}
-
                                     <Grid.Column computer={6}
                                         mobile={16}
                                         tablet={16}>
-                                          <div className="featured-headline">
-                                            <Image src='https://cdn-images-1.medium.com/max/1024/1*GGft_aeszJhTQV1sPMzDWQ.jpeg' centered size='huge'/>
+                                        <div className="feature-headline">
+                                            <Image src='https://miro.medium.com/max/2720/1*0UAhL7naxUuBE2lqS9pBcQ.jpeg' centered size='huge'/>
                                             <Header as='h1'>
-                                               <Link href="/articles/first_article"><a>An open letter to recent college graduates</a></Link>
+                                                Dont' Ask What Caused the Spike i Cases. Ask What the U.S. Will Do About Them
                                                 <Header.Subheader>
-                                                    An open letter to recent college graduates
+                                                    We likely won’t know for certain where new cases are coming from. How the U.S. responds to those cases is what really matters
                                                 </Header.Subheader>
                                             </Header>
                                             <Header as='h2'>
                                                 <Header.Subheader>
-                                                    Gerard Gueco in Medium Education Blog
+                                                    Yasmin Tayag in Medium Coronavirus Blog
                                                 </Header.Subheader>
                                                 <Header.Subheader>
                                                     Jun 11 · 4 min read
@@ -239,39 +228,52 @@ export default class Home extends Component {
                                             </Header>
                                             <Item.Group>
                                                 <Item>
-                                                    <Item.Image size='small' src='https://cdn-images-1.medium.com/max/1024/1*OgTVc-8IhuxfpDHzQgXX7Q.jpeg'/>
+                                                    <Item.Image size='small' src='https://miro.medium.com/max/320/0*JsCxh8ckwJllI2In'/>
 
                                                     <Item.Content verticalAlign='middle'>
-                                                        <Item.Header as='a'><Link href="/articles/second_article"><a>Portfolio Challenge: From Flat UI to Gradients</a></Link></Item.Header>
-                                                        <Item.Meta>Portfolio Challenge: From Flat UI to Gradients</Item.Meta>
+                                                        <Item.Header as='a'>WFH Taught Me How to Live in the Moment</Item.Header>
+                                                        <Item.Meta>Being cooped up in the crib has forced me to learn (and unlearn) some major habits</Item.Meta>
                                                         <Item.Description>
-                                                            Portfolio Challenge: From Flat UI to Gradients
+                                                            The Only Black Guy In the Office in LEVEL
                                                         </Item.Description>
-                                                        <Item.Extra>Jun 15 · 5 min read</Item.Extra>
+                                                        <Item.Extra>Jun 15 · 5 min read
+                                                            <Icon name='favorite'/></Item.Extra>
+                                                    </Item.Content>
+                                                </Item>
+
+                                                <Item>
+                                                    <Item.Image size='small' src='https://miro.medium.com/max/320/0*I3TiS0a273hCok0-'/>
+
+                                                    <Item.Content verticalAlign='middle'>
+                                                        <Item.Header as='a'>WFH Taught Me How to Live in the Moment</Item.Header>
+                                                        <Item.Meta>Being cooped up in the crib has forced me to learn (and unlearn) some major habits</Item.Meta>
+                                                        <Item.Description>
+                                                            The Only Black Guy In the Office in LEVEL
+                                                        </Item.Description>
+                                                        <Item.Extra>Jun 15 · 5 min read
+                                                            <Icon name='favorite'/></Item.Extra>
                                                     </Item.Content>
                                                 </Item>
                                                 <Item>
-                                                    <Item.Image size='small' src='https://cdn-images-1.medium.com/max/1024/1*PCTSrjA4HThSZKMTBtUkkw.png'/>
+                                                    <Item.Image size='small' src='https://miro.medium.com/max/320/0*O_WVawBCrBy-WXTh'/>
 
                                                     <Item.Content verticalAlign='middle'>
-                                                        <Item.Header as='a'><Link href="/articles/third_article"><a>Managing data with modern JavaScript: map, filter, reduce, find</a></Link></Item.Header>
-                                                        <Item.Meta>Managing data with modern JavaScript: map, filter, reduce, find</Item.Meta>
+                                                        <Item.Header as='a'>negomi/react-burger-menu</Item.Header>
+                                                        {/* <Item.Meta>Description</Item.Meta> */}
                                                         <Item.Description>
-                                                            Managing data with modern JavaScript: map, filter, reduce, find
+                                                            hamburger: An off-canvas sidebar component with a collection of effects and styles using CSS transitions and SVG path...
                                                         </Item.Description>
                                                         <Item.Extra>github.com</Item.Extra>
                                                     </Item.Content>
                                                 </Item>
                                                 <Item>
-                                                    <Item.Image size='small' src='https://cdn-images-1.medium.com/max/800/1*4WytZLPdbUkBTYFKkrxNdQ.gif'/>
+                                                    <Item.Image size='small' src='https://miro.medium.com/max/320/0*fyrM-xp9LumtS-Ow'/>
 
                                                     <Item.Content verticalAlign='middle'>
-                                                        <Item.Header as='a'><Link href="/articles/third_article"><a>I used Next.js + Semantic UI on my React App and it’s awesome!</a></Link>
-                                                            </Item.Header>
-                                                        <Item.Meta>
-                                                            I used Next.js + Semantic UI on my React App and it’s awesome!</Item.Meta>
+                                                        <Item.Header as='a'>Introduction - Semantic UI React</Item.Header>
+                                                        {/* <Item.Meta>Description</Item.Meta> */}
                                                         <Item.Description>
-                                                            I used Next.js + Semantic UI on my React App and it’s awesome!
+                                                            Button Container Divider Flag Header Icon Image Input Label List Loader Placehoder Rail Reveal Segment Step
                                                         </Item.Description>
                                                         <Item.Extra>react-semantic-ui.com</Item.Extra>
                                                     </Item.Content>
@@ -283,18 +285,7 @@ export default class Home extends Component {
                                 </Grid.Row>
                             </Grid>
                         </div>
-                        {/* Footer Start */}
-                        <div>
-                            <Divider hidden section/> {/* <p className="footer">
-                                P.S. Sorry for too much colors. I'm just colorblind :)
-                            </p> */}
-                            <p className="credits">
-                                Made with ♥️ from 🇵🇭
-                            </p>
-
-                            <Divider hidden section/>
-                        </div>
-                        {/* Footer End */} </Container>
+                    </Container>
                 </main>
             </div>
         )

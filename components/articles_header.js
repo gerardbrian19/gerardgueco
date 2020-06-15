@@ -94,24 +94,6 @@ export default class Articles extends Component{
                                 </Animated>
                             </a>
                         </Link>
-                        <Link href="/articles">
-                            <a>
-                                <Animated>
-                                    <Card style={
-                                        {
-                                            backgroundImage: "url(" + "/static/images/lowpoly.png" + ")"
-                                        }
-                                    }>
-                                        <Header as='h3'>
-                                            <Header.Content>
-                                            View all ›
-                                            </Header.Content>
-                                        </Header>
-                                        <div className="gradient MidnightCity"></div>
-                                    </Card>
-                                </Animated>
-                            </a>
-                        </Link>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>

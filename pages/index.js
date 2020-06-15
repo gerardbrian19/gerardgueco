@@ -64,18 +64,21 @@ export default class Home extends Component {
                             <Link href="/projects">
                                 <a className="menu-item">Projects</a>
                             </Link>
-                            <Link href="/">
-                                <a className="menu-item">Resumé</a>
+                            <Link href="/articles">
+                                <a className="menu-item">Articles</a>
+                            </Link>
+                            <Link href="/static/images/gerard_gueco_resume.pdf">
+                                <a  target="_blank" className="menu-item">Resumé</a>
                             </Link>
                         </div>
                         <div className="social-icons">
-                            <a title="Medium" href="/">
+                            <a title="Medium" href="https://medium.com/@gerardgueco" target="_blank">
                                 <Icon name="medium"></Icon>
                             </a>
-                            <a title="Youtube" href="/">
+                            <a title="Youtube" href="https://www.youtube.com/channel/UC1bQUFzHdunG_62gVVQxn9g?view_as=subscriber" target="_blank">
                                 <Icon name="youtube square"></Icon>
                             </a>
-                            <a title="Github" href="/">
+                            <a title="Github" href="https://github.com/gerardbrian19" target="_blank">
                                 <Icon name="github square"></Icon>
                             </a>
                         </div>
@@ -125,7 +128,12 @@ export default class Home extends Component {
                         <Header as='h3'>
                             <Header.Content>
                                 Articles
-                                <Header.Subheader>I like to write in my free time</Header.Subheader>
+                                <Header.Subheader>
+                                    I like to write in my free time 
+                                    <Link href="/articles">
+                                        <a> (view all)</a>
+                                    </Link>
+                                </Header.Subheader>
                             </Header.Content>
                         </Header>
                         {/* Header End */}

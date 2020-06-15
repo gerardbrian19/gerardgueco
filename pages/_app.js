@@ -11,6 +11,9 @@ export default class MyApp extends App {
     const res = await import('../public/static/data/projects.json')
     return { pageProps: res }
   }
+  componentDidMount(e) {
+    console.log(this.props)
+}
   
   render() {
     const { Component, pageProps, router } = this.props

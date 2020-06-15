@@ -40,9 +40,7 @@ export default class Projects extends Component {
     _onReady(event) { // access to player in all event handlers via event.target
         event.target.pauseVideo();
     }
-    componentDidMount(e) {
-        console.log(this.props)
-    }
+    
     render() {
         const params = {
             effect: 'coverflow',
