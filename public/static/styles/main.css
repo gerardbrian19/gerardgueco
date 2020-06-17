@@ -924,6 +924,25 @@ body {
     font-style: normal;
     font-weight: 400;
   }
+  .article-content div.ui.centered.grid div.row div.ten.wide.computer.sixteen.mobile.tablet.column div.ui.text.fluid.left.aligned.container div.text-content div.ui.message code p {
+    white-space: pre-wrap !important;
+    margin-bottom: -0.09em !important;
+    margin-top: -0.09em !important;
+    line-height: 1.18 !important;
+    letter-spacing: -0.022em !important;
+    font-size: 16px !important;
+    overflow-wrap: break-word !important;
+  }
+  .article-content div.ui.centered.grid div.row div.ten.wide.computer.sixteen.mobile.tablet.column div.ui.text.fluid.left.aligned.container div.text-content div.ui.bulleted.list div.item {
+    line-height: 28px;
+    margin-top: 1em;
+    font-size: 18px;
+    padding-left: 0px;
+    margin-left: 30px;
+    letter-spacing: -0.003em;
+    margin-bottom: -0.46em;
+    overflow-wrap: break-word;
+  }
 }
 
 .article-content div.ui.huge.header {
@@ -940,6 +959,11 @@ body {
   margin-bottom: 80px;
 }
 
+.article-content .text-content .img-group p.center {
+  font-size: 14px !important;
+  line-height: 1.4285em !important;
+}
+
 .article-content .text-content p {
   font-size: 21px;
   line-height: 32px;
@@ -949,6 +973,27 @@ body {
   word-break: break-word;
   font-style: normal;
   font-weight: 400;
+}
+
+.article-content .text-content div.ui.message code p {
+  white-space: pre-wrap;
+  margin-bottom: -0.09em;
+  margin-top: -0.09em;
+  line-height: 1.18;
+  letter-spacing: -0.022em;
+  font-size: 16px;
+  overflow-wrap: break-word;
+}
+
+.article-content .text-content div.ui.bulleted.list div.item {
+  line-height: 32px;
+  margin-top: 1em;
+  font-size: 21px;
+  padding-left: 0px;
+  margin-left: 30px;
+  letter-spacing: -0.003em;
+  margin-bottom: -0.46em;
+  overflow-wrap: break-word;
 }
 
 .article-content div.img-group {
