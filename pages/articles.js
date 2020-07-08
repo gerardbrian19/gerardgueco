@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {scaleRotate as Menu} from 'react-burger-menu'
+import Sidebar from '../components/sidebar'
 import {
     Container,
     Header,
@@ -43,41 +43,14 @@ export default class Home extends Component {
         return (
             <div id="App">
                 {/* Sidebar Start */}
-                <Menu pageWrapId={"main-content"}
+                <Sidebar pageWrapId={"main-content"}
                     outerContainerId={"App"}
                     isOpen={
                         this.state.menuOpen
                     }
                     onStateChange={
                         (state) => this.handleStateChange(state)
-                }>
-                    <div className="bm-item nav-content">
-                        <Image src='/static/images/logo-light1.png' className="logo"/>
-                        <div className="links">
-                            <Link href="/">
-                                <a className="menu-item active">Home</a>
-                            </Link>
-                            <Link href="/projects">
-                                <a className="menu-item">Projects</a>
-                            </Link>
-                            <Link href="/">
-                                <a className="menu-item">Resumé</a>
-                            </Link>
-                        </div>
-                        <div className="social-icons">
-                            <a title="Medium" href="/">
-                                <Icon name="medium"></Icon>
-                            </a>
-                            <a title="Youtube" href="/">
-                                <Icon name="youtube square"></Icon>
-                            </a>
-                            <a title="Github" href="/">
-                                <Icon name="github square"></Icon>
-                            </a>
-                        </div>
-                    </div>
-
-                </Menu>
+                }/>
                 {/* Sidebar End */}
                 <main id="main-content">
                     <Container> {/* Header Start */}

@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {scaleRotate as Menu} from 'react-burger-menu'
+import Sidebar from '../components/sidebar'
 import {
     Container,
     Header,
@@ -8,9 +8,9 @@ import {
     Button,
     Card,
     Grid,
-    Divider
+    Divider,
+    Flag
 } from 'semantic-ui-react'
-import {Animated} from 'react-animated-css'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 
@@ -47,44 +47,16 @@ export default class Home extends Component {
         return (
             <div id="App">
                 {/* Sidebar Start */}
-                <Menu pageWrapId={"main-content"}
+                <Sidebar pageWrapId={"main-content"}
                     outerContainerId={"App"}
                     isOpen={
                         this.state.menuOpen
                     }
                     onStateChange={
                         (state) => this.handleStateChange(state)
-                }>
-                    <div className="bm-item nav-content">
-                        <Image src='/static/images/logo-light1.png' className="logo"/>
-                        <div className="links">
-                            <Link href="/">
-                                <a className="menu-item active">Home</a>
-                            </Link>
-                            <Link href="/projects">
-                                <a className="menu-item">Projects</a>
-                            </Link>
-                            <Link href="/articles">
-                                <a className="menu-item">Articles</a>
-                            </Link>
-                            <Link href="/static/images/gerard_gueco_resume.pdf">
-                                <a  target="_blank" className="menu-item">Resumé</a>
-                            </Link>
-                        </div>
-                        <div className="social-icons">
-                            <a title="Medium" href="https://medium.com/@gerardgueco" target="_blank">
-                                <Icon name="medium"></Icon>
-                            </a>
-                            <a title="Youtube" href="https://www.youtube.com/channel/UC1bQUFzHdunG_62gVVQxn9g?view_as=subscriber" target="_blank">
-                                <Icon name="youtube square"></Icon>
-                            </a>
-                            <a title="Github" href="https://github.com/gerardbrian19" target="_blank">
-                                <Icon name="github square"></Icon>
-                            </a>
-                        </div>
-                    </div>
-
-                </Menu>
+                }
+                active={"home"}
+                />
                 {/* Sidebar End */}
                 <main id="main-content">
                     <Container> {/* Header Start */}
@@ -152,36 +124,44 @@ export default class Home extends Component {
 <Grid className="links">
                             <Grid.Row columns={4}>
                                 <Grid.Column>
-                                    <Link href="/">
-                                        <Card className="twitter">
-                                            <Icon name="twitter"></Icon>
-                                            <div className="gradient"></div>
-                                        </Card>
-                                    </Link>
+                                    
+                                        <a href="https://twitter.com/xogerardd" target="_blank">
+                                            <Card className="twitter">
+                                                <Icon name="twitter"></Icon>
+                                                <div className="gradient"></div>
+                                            </Card>
+                                        </a>
+                                   
                                 </Grid.Column>
                                 <Grid.Column>
-                                    <Link href="/">
-                                        <Card className="linkedin">
-                                            <Icon name="linkedin"></Icon>
-                                            <div className="gradient"></div>
-                                        </Card>
-                                    </Link>
+                                    
+                                        <a href="https://www.linkedin.com/in/gerard-brian-gueco-a86733161/" target="_blank">
+                                            <Card className="linkedin">
+                                                <Icon name="linkedin"></Icon>
+                                                <div className="gradient"></div>
+                                            </Card>
+                                        </a>
+                                    
                                 </Grid.Column>
                                 <Grid.Column>
-                                    <Link href="/">
-                                        <Card className="whatsapp">
-                                            <Icon name="whatsapp"></Icon>
-                                            <div className="gradient"></div>
-                                        </Card>
-                                    </Link>
+                                    
+                                        <a href="whatsapp://send?phone=+639201157306&text=Hello" target="_blank">
+                                            <Card className="whatsapp">
+                                                <Icon name="whatsapp"></Icon>
+                                                <div className="gradient"></div>
+                                            </Card>
+                                        </a>
+                                    
                                 </Grid.Column>
                                 <Grid.Column>
-                                    <Link href="/">
-                                        <Card className="mail">
-                                            <Icon name="mail"></Icon>
-                                            <div className="gradient"></div>
-                                        </Card>
-                                    </Link>
+                                   
+                                        <a href="mailto:gerardbriangueco@gmail.com" target="_blank">
+                                            <Card className="mail">
+                                                <Icon name="mail"></Icon>
+                                                <div className="gradient"></div>
+                                            </Card>
+                                        </a>
+                                   
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>
@@ -193,7 +173,8 @@ export default class Home extends Component {
                                 P.S. Sorry for too much colors. I'm just colorblind :)
                             </p>
                             <p className="credits">
-                                Made with ♥️ from 🇵🇭
+                                {/* Made with ♥️ from 🇵🇭 */}
+                                Made with <Icon size='small' color='red' name='heart' /> from <Flag name='ph' />
                             </p>
 
                             <Divider hidden section/>
