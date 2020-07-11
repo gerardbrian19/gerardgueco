@@ -30,7 +30,7 @@ export default class Articles extends Component{
                                     }>
                                         <Header as='h3'>
                                             <Header.Content>
-                                                An open letter to recent college graduates
+                                                Article 1 Title
                                             </Header.Content>
                                         </Header>
                                         <div className="gradient"></div>
@@ -49,7 +49,7 @@ export default class Articles extends Component{
                                     }>
                                         <Header as='h3'>
                                             <Header.Content>
-                                                Portfolio Challenge: From Flat UI to Gradients
+                                             Article 2 Title
                                             </Header.Content>
                                         </Header>
                                         <div className="gradient"></div>
@@ -68,7 +68,7 @@ export default class Articles extends Component{
                                     }>
                                         <Header as='h3'>
                                             <Header.Content>
-                                                Managing data with modern JavaScript: map, filter, reduce, find
+                                            Article 3 Title
                                             </Header.Content>
                                         </Header>
                                         <div className="gradient"></div>
@@ -86,7 +86,7 @@ export default class Articles extends Component{
                                     }>
                                         <Header as='h3'>
                                             <Header.Content>
-                                                I used Next.js + Semantic UI on my React App and it’s awesome!
+                                            Article 4 Title
                                             </Header.Content>
                                         </Header>
                                         <div className="gradient"></div>

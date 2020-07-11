@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {scaleRotate as Menu} from 'react-burger-menu'
+import Sidebar from '../components/sidebar'
 import ReactFullpage from '@fullpage/react-fullpage'
 import Swiper from 'react-id-swiper'
 import {
@@ -13,8 +13,6 @@ import {
     Divider,
     Label
 } from 'semantic-ui-react'
-import {Animated} from 'react-animated-css'
-import Link from 'next/link'
 import { TransitionModal } from 'semantic-ui-react-transition-modal'
 import YouTube from 'react-youtube'
 
@@ -22,8 +20,7 @@ export default class Projects extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            menuOpen: false,
-            idx: 0
+            menuOpen: false
         }
     }
     handleStateChange(state) {
@@ -67,41 +64,16 @@ export default class Projects extends Component {
         return (
             <div id="App">
                 {/* Sidebar Start */}
-                <Menu pageWrapId={"full-screen"}
+                <Sidebar pageWrapId={"full-screen"}
                     outerContainerId={"App"}
                     isOpen={
                         this.state.menuOpen
                     }
                     onStateChange={
                         (state) => this.handleStateChange(state)
-                }>
-                    <div className="bm-item nav-content">
-                        <Image src='/static/images/logo-light1.png' className="logo"/>
-                        <div className="links">
-                            <Link href="/">
-                                <a className="menu-item">Home</a>
-                            </Link>
-                            <Link href="/projects">
-                                <a className="menu-item active">Projects</a>
-                            </Link>
-                            <Link href="/">
-                                <a className="menu-item">Resumé</a>
-                            </Link>
-                        </div>
-                        <div className="social-icons">
-                            <a href="/">
-                                <Icon name="medium"></Icon>
-                            </a>
-                            <a href="/">
-                                <Icon name="youtube square"></Icon>
-                            </a>
-                            <a href="/">
-                                <Icon name="github square"></Icon>
-                            </a>
-                        </div>
-                    </div>
-
-                </Menu>
+                }
+                active={"projects"} 
+                />
                 {/* Sidebar End */}
                 <main id="full-screen">
                     <div className="light-nav">

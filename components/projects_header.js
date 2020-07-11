@@ -26,7 +26,7 @@ export default class Projects_Header extends Component{
                                         animationInDuration={1000}
                                         animationInDelay={0}
                                         isVisible={true}>
-                                        <Link href="/">
+                                        <Link href="/projects">
                                             <Card style={
                                                 {
                                                     backgroundImage: "url(" + "/static/images/projects/coinflip/thumb.jpg" + ")"
@@ -34,8 +34,8 @@ export default class Projects_Header extends Component{
                                             }>
                                                 <Header as='h3'>
                                                     <Header.Content>
-                                                        CoinFlip
-                                                        <Header.Subheader>A cloud-based payment platform at grocery stores nationwide</Header.Subheader>
+                                                        Project 1
+                                                        <Header.Subheader>Project 1 Description</Header.Subheader>
                                                     </Header.Content>
                                                 </Header>
                                                 <div className="gradient Passion"></div>
@@ -51,7 +51,7 @@ export default class Projects_Header extends Component{
                                         animationInDuration={1000}
                                         animationInDelay={200}
                                         isVisible={true}>
-                                        <Link href="/">
+                                        <Link href="/projects">
                                             <Card style={
                                                 {
                                                     backgroundImage: "url(" + "/static/images/projects/sindro/thumb.jpg" + ")"
@@ -59,8 +59,8 @@ export default class Projects_Header extends Component{
                                             }>
                                                 <Header as='h3'>
                                                     <Header.Content>
-                                                        Sindro Web
-                                                        <Header.Subheader>An online platform focused on simplicity and top of the line UX for fitness studios.</Header.Subheader>
+                                                        Project 2
+                                                        <Header.Subheader>Project 2 Description</Header.Subheader>
                                                     </Header.Content>
                                                 </Header>
                                                 <div className="gradient Netflix"></div>
@@ -76,7 +76,7 @@ export default class Projects_Header extends Component{
                                         animationInDuration={1000}
                                         animationInDelay={400}
                                         isVisible={true}>
-                                        <Link href="/">
+                                        <Link href="/projects">
                                             <Card style={
                                                 {
                                                     backgroundImage: "url(" + "/static/images/projects/lifebrand/thumb.jpg" + ")"
@@ -84,8 +84,8 @@ export default class Projects_Header extends Component{
                                             }>
                                                 <Header as='h3'>
                                                     <Header.Content>
-                                                        Lifebrand
-                                                        <Header.Subheader>Utilized machine learning platform, that scans social media for inappropriate or controversial material, and removes it.
+                                                        Project 3
+                                                        <Header.Subheader>Project 3 Description
                                                         </Header.Subheader>
                                                     </Header.Content>
                                                 </Header>

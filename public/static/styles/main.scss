@@ -717,163 +717,54 @@ body {
    .modals.dimmer .ui.scrolling.modal{
        margin: 0 !important;
    }
-   .featured-article{
-       margin-top: 50px;
+   .featured{
+       margin-top: 85px;
        .featured-headline{
-           margin-bottom: 40px;
-       }
-       .latest-articles{
-        a{
-            color: black !important;
+           h1.ui.header{
+               font-size: 38px;
+               .sub.header{
+                   font-size: 18px;
+               }
            }
-           a:hover{
-               color: #4183c4 !important;
+           h5.ui.header{
+               margin-bottom: 30px;
+               .content{
+                   font-size: 15.8px;
+                   font-weight: 400;
+                   .sub.header{
+                       margin-top: 3px;
+                   }
+               }
+           }
+           .latest-articles{
+               .ui.dividing.header{
+                   font-size: 15px;
+                   font-weight: 600;
+               }
            }
        }
-       @media screen and (max-width:768px){
-        margin-top: 20px;
+       
+   }
+   .featured-stories{
+    .ui.header{
+        font-size: 28.8px;
+        .sub.header{
+            font-size: 15.8px;
+        }
+    }
+   }
+   @media screen and (max-width:768px){
+        .featured-headline{
+            h1.ui.header{
+                font-size: 25.2px !important;
+            }
+        }
         .featured-stories{
+            margin-top: -50px;
             margin-bottom: 20px;
         }
-       }
-   }
-   .article-content{
-    a{
-    color: black !important;
     }
-    a:hover{
-        color: #4183c4 !important;
-    }
-    div.soc-icon{
-        text-align: right !important;
-        h2.ui.header a i{
-            margin-right: 0px;
-        }
-    }
-    @media screen and (max-width:767px){
-        div.ui.centered.grid{
-            div.row{
-                div.ten.wide.computer.sixteen.mobile.tablet.column{
-                    div.ui.huge.header{
-                        font-size: 30px !important;
-                        font-weight: 100 !important;
-                        line-height: 40px !important;
-                    }
-                    div.ui.text.fluid.left.aligned.container{
-                        div.author div.ui.grid div.row div.eight.wide.computer.sixteen.mobile.tablet.column div.info{
-                            margin-top: 20px;
-                        }
-                        div.text-content p{
-                            font-size: 18px;
-                            line-height: 32px;
-                            margin-top: 0.86em;
-                            letter-spacing: -0.003em;
-                            margin-bottom: 1.5em;
-                            word-break: break-word;
-                            font-style: normal;
-                            font-weight: 400;
-                        }
-                        div.text-content{
-                            div.ui.message code p{
-                                white-space: pre-wrap !important;
-                                margin-bottom: -0.09em !important;
-                                margin-top: -0.09em !important;
-                                line-height: 1.18 !important;
-                                letter-spacing: -0.022em !important;
-                                font-size: 16px !important;
-                                overflow-wrap: break-word !important;
-                            }
-                            div.ui.bulleted.list div.item{
-                                line-height: 28px;
-                                margin-top: 1em;
-                                font-size: 18px;
-                                padding-left: 0px;
-                                margin-left: 30px;
-                                letter-spacing: -0.003em;
-                                margin-bottom: -0.46em;
-                                overflow-wrap: break-word;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    margin-top: 30px;
-    div.ui.huge.header{
-        font-size: 3em !important;
-        font-weight: 100 !important;
-     }
-     div.author-header h1.ui.right.floated.header i.icon{
-        font-size: .9em !important;
-        opacity: .7 !important;
-    }
-    .text-content{
-        margin-bottom: 80px;
-        .img-group p.center{
-            font-size: 14px !important;
-            line-height: 1.4285em !important;
-        }
-        p{
-            font-size: 21px;
-            line-height: 32px;
-            margin-top: 0.86em;
-            letter-spacing: -0.003em;
-            margin-bottom: 1.5em;
-            word-break: break-word;
-            font-style: normal;
-            font-weight: 400;
-        }
-        div.ui.message code p{
-            white-space: pre-wrap;
-            margin-bottom: -0.09em;
-            margin-top: -0.09em;
-            line-height: 1.18;
-            letter-spacing: -0.022em;
-            font-size: 16px;
-            overflow-wrap: break-word;
-        }
-        div.ui.bulleted.list div.item{
-            line-height: 32px;
-            margin-top: 1em;
-            font-size: 21px;
-            padding-left: 0px;
-            margin-left: 30px;
-            letter-spacing: -0.003em;
-            margin-bottom: -0.46em;
-            overflow-wrap: break-word;
-        }
-    }
-    div.img-group{
-        margin-bottom: 50px;
-      p.center{
-          margin: 10px auto 10px auto;
-          opacity: .7 !important;
-      }
-    }
-    div.claps{
-        margin-top: 20px;
-        div.ui.grid{
-            div.row div.eight.wide.column{
-                div.lft{
-                    display: inline-flex;
-                    div.like div.ui.medium.basic.label{
-                        border: none;
-                    }
-                    div.respo div.ui.medium.basic.label{
-                        border: none;
-                    }
-                }
-                div.rght{
-                    text-align: right;
-                    opacity: .7 !important;
-                }
-            }
-        }
-    }
-   }
    
-
 //-------------------------
 .swiper-container {
     margin:0 auto;
