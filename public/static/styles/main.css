@@ -860,172 +860,52 @@ body {
   margin: 0 !important;
 }
 
-.featured-article {
-  margin-top: 50px;
+.featured {
+  margin-top: 85px;
 }
 
-.featured-article .featured-headline {
-  margin-bottom: 40px;
+.featured .featured-headline h1.ui.header {
+  font-size: 38px;
 }
 
-.featured-article .latest-articles a {
-  color: black !important;
+.featured .featured-headline h1.ui.header .sub.header {
+  font-size: 18px;
 }
 
-.featured-article .latest-articles a:hover {
-  color: #4183c4 !important;
+.featured .featured-headline h5.ui.header {
+  margin-bottom: 30px;
 }
 
-@media screen and (max-width: 768px) {
-  .featured-article {
-    margin-top: 20px;
-  }
-  .featured-article .featured-stories {
-    margin-bottom: 20px;
-  }
-}
-
-.article-content {
-  margin-top: 30px;
-}
-
-.article-content a {
-  color: black !important;
-}
-
-.article-content a:hover {
-  color: #4183c4 !important;
-}
-
-.article-content div.soc-icon {
-  text-align: right !important;
-}
-
-.article-content div.soc-icon h2.ui.header a i {
-  margin-right: 0px;
-}
-
-@media screen and (max-width: 767px) {
-  .article-content div.ui.centered.grid div.row div.ten.wide.computer.sixteen.mobile.tablet.column div.ui.huge.header {
-    font-size: 30px !important;
-    font-weight: 100 !important;
-    line-height: 40px !important;
-  }
-  .article-content div.ui.centered.grid div.row div.ten.wide.computer.sixteen.mobile.tablet.column div.ui.text.fluid.left.aligned.container div.author div.ui.grid div.row div.eight.wide.computer.sixteen.mobile.tablet.column div.info {
-    margin-top: 20px;
-  }
-  .article-content div.ui.centered.grid div.row div.ten.wide.computer.sixteen.mobile.tablet.column div.ui.text.fluid.left.aligned.container div.text-content p {
-    font-size: 18px;
-    line-height: 32px;
-    margin-top: 0.86em;
-    letter-spacing: -0.003em;
-    margin-bottom: 1.5em;
-    word-break: break-word;
-    font-style: normal;
-    font-weight: 400;
-  }
-  .article-content div.ui.centered.grid div.row div.ten.wide.computer.sixteen.mobile.tablet.column div.ui.text.fluid.left.aligned.container div.text-content div.ui.message code p {
-    white-space: pre-wrap !important;
-    margin-bottom: -0.09em !important;
-    margin-top: -0.09em !important;
-    line-height: 1.18 !important;
-    letter-spacing: -0.022em !important;
-    font-size: 16px !important;
-    overflow-wrap: break-word !important;
-  }
-  .article-content div.ui.centered.grid div.row div.ten.wide.computer.sixteen.mobile.tablet.column div.ui.text.fluid.left.aligned.container div.text-content div.ui.bulleted.list div.item {
-    line-height: 28px;
-    margin-top: 1em;
-    font-size: 18px;
-    padding-left: 0px;
-    margin-left: 30px;
-    letter-spacing: -0.003em;
-    margin-bottom: -0.46em;
-    overflow-wrap: break-word;
-  }
-}
-
-.article-content div.ui.huge.header {
-  font-size: 3em !important;
-  font-weight: 100 !important;
-}
-
-.article-content div.author-header h1.ui.right.floated.header i.icon {
-  font-size: .9em !important;
-  opacity: .7 !important;
-}
-
-.article-content .text-content {
-  margin-bottom: 80px;
-}
-
-.article-content .text-content .img-group p.center {
-  font-size: 14px !important;
-  line-height: 1.4285em !important;
-}
-
-.article-content .text-content p {
-  font-size: 21px;
-  line-height: 32px;
-  margin-top: 0.86em;
-  letter-spacing: -0.003em;
-  margin-bottom: 1.5em;
-  word-break: break-word;
-  font-style: normal;
+.featured .featured-headline h5.ui.header .content {
+  font-size: 15.8px;
   font-weight: 400;
 }
 
-.article-content .text-content div.ui.message code p {
-  white-space: pre-wrap;
-  margin-bottom: -0.09em;
-  margin-top: -0.09em;
-  line-height: 1.18;
-  letter-spacing: -0.022em;
-  font-size: 16px;
-  overflow-wrap: break-word;
+.featured .featured-headline h5.ui.header .content .sub.header {
+  margin-top: 3px;
 }
 
-.article-content .text-content div.ui.bulleted.list div.item {
-  line-height: 32px;
-  margin-top: 1em;
-  font-size: 21px;
-  padding-left: 0px;
-  margin-left: 30px;
-  letter-spacing: -0.003em;
-  margin-bottom: -0.46em;
-  overflow-wrap: break-word;
+.featured .featured-headline .latest-articles .ui.dividing.header {
+  font-size: 15px;
+  font-weight: 600;
 }
 
-.article-content div.img-group {
-  margin-bottom: 50px;
+.featured-stories .ui.header {
+  font-size: 28.8px;
 }
 
-.article-content div.img-group p.center {
-  margin: 10px auto 10px auto;
-  opacity: .7 !important;
+.featured-stories .ui.header .sub.header {
+  font-size: 15.8px;
 }
 
-.article-content div.claps {
-  margin-top: 20px;
-}
-
-.article-content div.claps div.ui.grid div.row div.eight.wide.column div.lft {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.article-content div.claps div.ui.grid div.row div.eight.wide.column div.lft div.like div.ui.medium.basic.label {
-  border: none;
-}
-
-.article-content div.claps div.ui.grid div.row div.eight.wide.column div.lft div.respo div.ui.medium.basic.label {
-  border: none;
-}
-
-.article-content div.claps div.ui.grid div.row div.eight.wide.column div.rght {
-  text-align: right;
-  opacity: .7 !important;
+@media screen and (max-width: 768px) {
+  .featured-headline h1.ui.header {
+    font-size: 25.2px !important;
+  }
+  .featured-stories {
+    margin-top: -50px;
+    margin-bottom: 20px;
+  }
 }
 
 .swiper-container {
