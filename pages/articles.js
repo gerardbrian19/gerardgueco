@@ -6,22 +6,11 @@ import {
     Image,
     Icon,
     Button,
-    Card,
-    Grid,
-    Divider,
-    Segment,
-    Comment,
-    Form,
-    Label,
-    Item,
-    Message,
-    List,Flag
+    Grid
 } from 'semantic-ui-react'
 import Featured_Headline from '../components/article_components/featured_headline'
 import Latest_Articles from '../components/article_components/latest_articles'
-import {Animated} from 'react-animated-css'
-import Link from 'next/link'
-import dynamic from 'next/dynamic'
+import Footer from '../components/footer'
 
 export default class Home extends Component {
     constructor(props) {
@@ -130,18 +119,7 @@ export default class Home extends Component {
                             </Grid>
                         </div>
                        {/* Footer Start */}
-                       <div>
-                            <Divider hidden section/>
-                            {/* <p className="footer">
-                                P.S. Sorry for too much colors. I'm just colorblind :)
-                            </p> */}
-                            <p className="credits">
-                                {/* Made with ♥️ from 🇵🇭 */}
-                                Made with <Icon size='small' color='red' name='heart' /> from <Flag name='ph' />
-                            </p>
-
-                            <Divider hidden section/>
-                        </div>
+                       <Footer />
                         {/* Footer End */}
                     </Container>
                 </main>

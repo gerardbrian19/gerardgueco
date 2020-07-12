@@ -1,33 +1,15 @@
 import React, {Component} from 'react'
 import {
-    Container,
-    Header,
-    Image,
-    Icon,
-    Button,
-    Card,
-    Grid,
-    Divider,
-    Segment,
-    Comment,
-    Form,
-    Label,
-    Item,
-    Message,
-    List
+    Image
 } from 'semantic-ui-react'
-import Link from 'next/link'
 
 export default class MassiveImage extends Component{
     render(){
         return(
-            <div id="App">
-                <main id="main-content">
-
-                </main>
-
+            <div id="massive_image">
+                <Image src={this.props.massiveimg_src} centered size='massive'/>
+            <p className="center">{this.props.massiveimg_cap}</p>
             </div>
-
         )
     }
 }
