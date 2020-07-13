@@ -1,32 +1,53 @@
 import React, {Component} from 'react'
-import {
-    Container,
-    Header,
-    Image,
-    Icon,
-    Button,
-    Card,
-    Grid,
-    Divider,
-    Segment,
-    Comment,
-    Form,
-    Label,
-    Item,
-    Message,
-    List
-} from 'semantic-ui-react'
-import Link from 'next/link'
+import {Header, Image, Grid} from 'semantic-ui-react'
 
-export default class AboutAuthor extends Component{
-    render(){
-        return(
-            <div id="App">
-                <main id="main-content">
+export default class AboutAuthor extends Component {
+    render() {
+        return (
+            <div className="author">
+            <Grid>
+                <Grid.Row>
+                    <Grid.Column computer={8}
+                        mobile={16}
+                        tablet={8}>
+                        <Image src='/static/images/GG.png' verticalAlign='middle' size='medium' centered/>
+                    </Grid.Column>
+                    <Grid.Column computer={8}
+                        mobile={16}
+                        tablet={8}>
+                        <div className="info">
+                            <Header as='h2'>
+                                <Header.Content>
+                                    <Header.Subheader>
+                                        Written By
+                                    </Header.Subheader>
+                                    Gerard Gueco
+                                    <Header.Subheader>
+                                        Software Engineer
+                                    </Header.Subheader>
+                                </Header.Content>
 
-                </main>
+                            </Header>
+                            <p>
+                                Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia
+                                facete scriptorem, est autem aliquip detraxit at. Usu ocurreret
+                                referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque
+                                electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei
+                                ex natum rebum iisque.
+                            </p>
+                            <p>
+                                Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia
+                                facete scriptorem, est autem aliquip detraxit at. Usu ocurreret
+                                referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque
+                                electram, eos choro alterum definiebas in. Vim dolorum definiebas an. Mei
+                                ex natum rebum iisque.
+                            </p>
+                        </div>
+                    </Grid.Column>
+                </Grid.Row>
 
-            </div>
+            </Grid>
+        </div>
 
         )
     }

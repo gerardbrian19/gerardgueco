@@ -1,20 +1,7 @@
 import React, {Component} from 'react'
 import {
-    Container,
     Header,
-    Image,
-    Icon,
-    Button,
-    Card,
-    Grid,
-    Divider,
-    Segment,
-    Comment,
-    Form,
-    Label,
-    Item,
-    Message,
-    List
+    Image
 } from 'semantic-ui-react'
 import Link from 'next/link'
 

@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Sidebar from '../components/sidebar'
+import {scaleRotate as Menu} from 'react-burger-menu'
 import {
     Container,
     Header,
@@ -12,16 +12,23 @@ import {
     Segment,
     Comment,
     Form,
-    Label,
-    Item,
-    Message,
-    List
+    Label
 } from 'semantic-ui-react'
+import Sidebar from '../../components/sidebar'
+import Footer from '../../components/footer'
+import TitleAuthorHeader from '../../components/article_components/title_author_header'
+import MassiveImage from '../../components/article_components/article_massive_img'
+import ArticleParagraph from '../../components/article_components/article_paragraph'
+import ArticleHeader from '../../components/article_components/article_header'
+import ArticleCategories from '../../components/article_components/article_categories'
+import ArticleClaps from '../../components/article_components/article_claps'
+import AboutAuthor from '../../components/article_components/about_author'
+import ArticleComment from '../../components/article_components/article_comments'
 import {Animated} from 'react-animated-css'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 
-export default class Home extends Component {
+export default class First_Article extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -43,17 +50,17 @@ export default class Home extends Component {
         return (
             <div id="App">
                 {/* Sidebar Start */}
-                <Sidebar pageWrapId={"main-content"}
+                    <Sidebar 
+                    pageWrapId={"main-content"}
                     outerContainerId={"App"}
-                    isOpen={
-                        this.state.menuOpen
-                    }
-                    onStateChange={
-                        (state) => this.handleStateChange(state)
-                }/>
+                    isOpen={this.state.menuOpen}
+                    onStateChange={(state) => this.handleStateChange(state)}
+                    active={"home"}/> 
                 {/* Sidebar End */}
+
                 <main id="main-content">
-                    <Container> {/* Header Start */}
+                    <Container>
+                        {/* Header Start */}
                         <div className="header-content">
                             <div>
                                 <Header as='h2'>
@@ -79,195 +86,63 @@ export default class Home extends Component {
                             </div>
                         </div>
                         {/* Header End */}
-
-                        <div className="featured-article">
-                            <Grid>
-                                <Grid.Row columns={2}
-                                    only='computer'>
-                                    <Grid.Column computer={10}
-                                        mobile={16}
-                                        tablet={16}>
-                                        <div className="featured-headline">
-                                            <Image src='https://cdn-images-1.medium.com/max/1024/1*GGft_aeszJhTQV1sPMzDWQ.jpeg' centered size='huge'/>
-                                            <Header as='h1'>
-                                               <Link href="/articles/first_article"><a>An open letter to recent college graduates</a></Link>
-                                                <Header.Subheader>
-                                                    An open letter to recent college graduates
-                                                </Header.Subheader>
-                                            </Header>
-                                            <Header as='h2'>
-                                                <Header.Subheader>
-                                                    Gerard Gueco in Medium Education Blog
-                                                </Header.Subheader>
-                                                <Header.Subheader>
-                                                    Jun 11 · 4 min read
-                                                </Header.Subheader>
-                                            </Header>
-
-                                        </div>
-                                        <div className="latest-articles">
-                                            <Header as='h3' dividing>
-                                                Latest Stories
-                                            </Header>
-                                            <Item.Group>
-                                                <Item>
-                                                    <Item.Image size='small' src='https://cdn-images-1.medium.com/max/1024/1*OgTVc-8IhuxfpDHzQgXX7Q.jpeg'/>
-
-                                                    <Item.Content verticalAlign='middle'>
-                                                        <Item.Header as='a'><Link href="/articles/second_article"><a>Portfolio Challenge: From Flat UI to Gradients</a></Link></Item.Header>
-                                                        <Item.Meta>Portfolio Challenge: From Flat UI to Gradients</Item.Meta>
-                                                        <Item.Description>
-                                                            Portfolio Challenge: From Flat UI to Gradients
-                                                        </Item.Description>
-                                                        <Item.Extra>Jun 15 · 5 min read</Item.Extra>
-                                                    </Item.Content>
-                                                </Item>
-                                                <Item>
-                                                    <Item.Image size='small' src='https://cdn-images-1.medium.com/max/1024/1*PCTSrjA4HThSZKMTBtUkkw.png'/>
-
-                                                    <Item.Content verticalAlign='middle'>
-                                                        <Item.Header as='a'><Link href="/articles/third_article"><a>Managing data with modern JavaScript: map, filter, reduce, find</a></Link></Item.Header>
-                                                        <Item.Meta>Managing data with modern JavaScript: map, filter, reduce, find</Item.Meta>
-                                                        <Item.Description>
-                                                            Managing data with modern JavaScript: map, filter, reduce, find
-                                                        </Item.Description>
-                                                        <Item.Extra>github.com</Item.Extra>
-                                                    </Item.Content>
-                                                </Item>
-                                                <Item>
-                                                    <Item.Image size='small' src='https://cdn-images-1.medium.com/max/800/1*4WytZLPdbUkBTYFKkrxNdQ.gif'/>
-
-                                                    <Item.Content verticalAlign='middle'>
-                                                        <Item.Header as='a'><Link href="/articles/third_article"><a>I used Next.js + Semantic UI on my React App and it’s awesome!</a></Link>
-                                                            </Item.Header>
-                                                        <Item.Meta>
-                                                            I used Next.js + Semantic UI on my React App and it’s awesome!</Item.Meta>
-                                                        <Item.Description>
-                                                            I used Next.js + Semantic UI on my React App and it’s awesome!
-                                                        </Item.Description>
-                                                        <Item.Extra>react-semantic-ui.com</Item.Extra>
-                                                    </Item.Content>
-                                                </Item>
-
-                                            </Item.Group>
-                                        </div>
-                                    </Grid.Column>
-                                    <Grid.Column computer={6}
-                                        mobile={16}
-                                        tablet={16}>
-                                        <div className="featured-stories">
-                                        <Header as='h2'>
-                                            Featured stories
-                                            <Header.Subheader>
-                                                Today’s best stories, picked by our editors.
-                                            </Header.Subheader>
-                                        </Header>
-                                        </div>
-                                    </Grid.Column>
-                                </Grid.Row>
-
-
-                                <Grid.Row columns={2}
-                                    only='tablet mobile'>
-                                    <Grid.Column computer={10}
-                                        mobile={16}
-                                        tablet={16}>
-                                            <div className="featured-stories">
-                                            <Header as='h2'>
-                                            Featured stories
-                                            <Header.Subheader>
-                                                Today’s best stories, picked by our editors.
-                                            </Header.Subheader>
-                                        </Header>
-                                            </div>
+                        <div className="article-content">
+                            <Grid centered>
+                                <Grid.Row>
+                                    <Grid.Column computer={10} tablet={16} mobile={16}>
+                                        <TitleAuthorHeader
+                                        header_title={"How to Cultivate Your Curiosity"}
+                                        header_description={"Science tells us how to encourage curiosity in children—I wanted a system for staying curious as an adult"}
+                                        />
+                                        <MassiveImage
+                                        massiveimg_src={"https://miro.medium.com/max/4150/1*GGft_aeszJhTQV1sPMzDWQ.jpeg"}
+                                        massiveimg_cap={"https://www.unpakt.com/blog/7-best-cities-for-young-college-grads/"}
+                                        />
+                                        <div className="text-content">
+                                        <ArticleHeader
+                                        art_header={"Hey, congratulations!"}
+                                        />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
                                         
-                                    </Grid.Column>
-
-                                    {/* Mobile Tablet */}
-
-                                    <Grid.Column computer={6}
-                                        mobile={16}
-                                        tablet={16}>
-                                          <div className="featured-headline">
-                                            <Image src='https://cdn-images-1.medium.com/max/1024/1*GGft_aeszJhTQV1sPMzDWQ.jpeg' centered size='huge'/>
-                                            <Header as='h1'>
-                                               <Link href="/articles/first_article"><a>An open letter to recent college graduates</a></Link>
-                                                <Header.Subheader>
-                                                    An open letter to recent college graduates
-                                                </Header.Subheader>
-                                            </Header>
-                                            <Header as='h2'>
-                                                <Header.Subheader>
-                                                    Gerard Gueco in Medium Education Blog
-                                                </Header.Subheader>
-                                                <Header.Subheader>
-                                                    Jun 11 · 4 min read
-                                                </Header.Subheader>
-                                            </Header>
-
+                                       
                                         </div>
-                                        <div className="latest-articles">
-                                            <Header as='h3' dividing>
-                                                Latest Stories
-                                            </Header>
-                                            <Item.Group>
-                                                <Item>
-                                                    <Item.Image size='small' src='https://cdn-images-1.medium.com/max/1024/1*OgTVc-8IhuxfpDHzQgXX7Q.jpeg'/>
 
-                                                    <Item.Content verticalAlign='middle'>
-                                                        <Item.Header as='a'><Link href="/articles/second_article"><a>Portfolio Challenge: From Flat UI to Gradients</a></Link></Item.Header>
-                                                        <Item.Meta>Portfolio Challenge: From Flat UI to Gradients</Item.Meta>
-                                                        <Item.Description>
-                                                            Portfolio Challenge: From Flat UI to Gradients
-                                                        </Item.Description>
-                                                        <Item.Extra>Jun 15 · 5 min read</Item.Extra>
-                                                    </Item.Content>
-                                                </Item>
-                                                <Item>
-                                                    <Item.Image size='small' src='https://cdn-images-1.medium.com/max/1024/1*PCTSrjA4HThSZKMTBtUkkw.png'/>
+                                        <ArticleCategories
+                                        tag={"College"}
+                                        />
+                                        <ArticleClaps/>
+                                        <Divider clearing section />
 
-                                                    <Item.Content verticalAlign='middle'>
-                                                        <Item.Header as='a'><Link href="/articles/third_article"><a>Managing data with modern JavaScript: map, filter, reduce, find</a></Link></Item.Header>
-                                                        <Item.Meta>Managing data with modern JavaScript: map, filter, reduce, find</Item.Meta>
-                                                        <Item.Description>
-                                                            Managing data with modern JavaScript: map, filter, reduce, find
-                                                        </Item.Description>
-                                                        <Item.Extra>github.com</Item.Extra>
-                                                    </Item.Content>
-                                                </Item>
-                                                <Item>
-                                                    <Item.Image size='small' src='https://cdn-images-1.medium.com/max/800/1*4WytZLPdbUkBTYFKkrxNdQ.gif'/>
-
-                                                    <Item.Content verticalAlign='middle'>
-                                                        <Item.Header as='a'><Link href="/articles/third_article"><a>I used Next.js + Semantic UI on my React App and it’s awesome!</a></Link>
-                                                            </Item.Header>
-                                                        <Item.Meta>
-                                                            I used Next.js + Semantic UI on my React App and it’s awesome!</Item.Meta>
-                                                        <Item.Description>
-                                                            I used Next.js + Semantic UI on my React App and it’s awesome!
-                                                        </Item.Description>
-                                                        <Item.Extra>react-semantic-ui.com</Item.Extra>
-                                                    </Item.Content>
-                                                </Item>
-
-                                            </Item.Group>
-                                        </div>
+                                        <AboutAuthor/>
+                                        <Divider clearing section/>
+                                        <ArticleComment/>
+                                        <Footer/>
                                     </Grid.Column>
                                 </Grid.Row>
+
                             </Grid>
                         </div>
-                        {/* Footer Start */}
-                        <div>
-                            <Divider hidden section/> {/* <p className="footer">
-                                P.S. Sorry for too much colors. I'm just colorblind :)
-                            </p> */}
-                            <p className="credits">
-                                Made with ♥️ from 🇵🇭
-                            </p>
-
-                            <Divider hidden section/>
-                        </div>
-                        {/* Footer End */} </Container>
+                    </Container>
                 </main>
             </div>
         )

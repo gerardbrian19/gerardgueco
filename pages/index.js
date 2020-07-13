@@ -8,11 +8,10 @@ import {
     Button,
     Card,
     Grid,
-    Divider,
-    Flag
 } from 'semantic-ui-react'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
+import Footer from '../components/footer'
 
 const Projects_Header = dynamic(
     () => import('../components/projects_header'),
@@ -167,18 +166,7 @@ export default class Home extends Component {
                         </Grid>
                         {/* Contacts End */}
                         {/* Footer Start */}
-                        <div>
-                            <Divider hidden section/>
-                            <p className="footer">
-                                P.S. Sorry for too much colors. I'm just colorblind :)
-                            </p>
-                            <p className="credits">
-                                {/* Made with ♥️ from 🇵🇭 */}
-                                Made with <Icon size='small' color='red' name='heart' /> from <Flag name='ph' />
-                            </p>
-
-                            <Divider hidden section/>
-                        </div>
+                        <Footer />
                         {/* Footer End */}
                          </Container>
                 </main>

@@ -1,33 +1,14 @@
 import React, {Component} from 'react'
-import {
-    Container,
-    Header,
-    Image,
-    Icon,
-    Button,
-    Card,
-    Grid,
-    Divider,
-    Segment,
-    Comment,
-    Form,
-    Label,
-    Item,
-    Message,
-    List
-} from 'semantic-ui-react'
-import Link from 'next/link'
+import {Label} from 'semantic-ui-react'
 
-export default class ArticleCategories extends Component{
-    render(){
-        return(
-            <div id="App">
-                <main id="main-content">
-
-                </main>
-
+export default class ArticleCategories extends Component {
+    render() {
+        return (
+            <div className="categories">
+                <Label.Group size='large'>
+                    <Label>{this.props.tag}</Label>
+                </Label.Group>
             </div>
-
         )
     }
 }
