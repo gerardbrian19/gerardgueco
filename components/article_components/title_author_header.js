@@ -1,22 +1,8 @@
 import React, {Component} from 'react'
 import {
-    Container,
     Header,
-    Image,
-    Icon,
-    Button,
-    Card,
-    Grid,
-    Divider,
-    Segment,
-    Comment,
-    Form,
-    Label,
-    Item,
-    Message,
-    List
+    Icon
 } from 'semantic-ui-react'
-import Link from 'next/link'
 
 export default class TitleAuthorHeader extends Component {
     render() {

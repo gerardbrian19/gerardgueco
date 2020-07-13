@@ -1,22 +1,9 @@
 import React, {Component} from 'react'
 import {
-    Container,
     Header,
-    Image,
     Icon,
-    Button,
-    Card,
-    Grid,
-    Divider,
-    Segment,
-    Comment,
-    Form,
-    Label,
-    Item,
-    Message,
-    List
+    Label
 } from 'semantic-ui-react'
-import Link from 'next/link'
 
 export default class ArticleClaps extends Component {
     render() {
