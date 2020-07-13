@@ -6,13 +6,8 @@ import {
     Image,
     Icon,
     Button,
-    Card,
     Grid,
-    Divider,
-    Segment,
-    Comment,
-    Form,
-    Label
+    Divider
 } from 'semantic-ui-react'
 import Sidebar from '../../components/sidebar'
 import Footer from '../../components/footer'
@@ -22,9 +17,8 @@ import ArticleParagraph from '../../components/article_components/article_paragr
 import ArticleHeader from '../../components/article_components/article_header'
 import ArticleCategories from '../../components/article_components/article_categories'
 import ArticleClaps from '../../components/article_components/article_claps'
-import AboutAuthor from '../../components/article_components/about_author'
+import AboutAuthor from '../../components/article_components/about_me'
 import ArticleComment from '../../components/article_components/article_comments'
-import {Animated} from 'react-animated-css'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 
