@@ -21,7 +21,7 @@ import Link from 'next/link'
 export default class TitleAuthorHeader extends Component {
     render() {
         return (
-            <div id="title_author_header">
+            <div className="title_author_header">
                 <Header as='h1'>
                     {
                     this.props.header_title
@@ -31,8 +31,8 @@ export default class TitleAuthorHeader extends Component {
                     } </Header.Subheader>
                 </Header>
                 <div className="author-header">
-                    <Header as='h1' floated='left'>
-                    <Image size="medium" circular src='/static/images/gerard_formal.jpg' />
+                    <Header as='h3' floated='left'>
+                    {/* <Image size="large" circular src='/static/images/gerard_formal.jpg' /> */}
                         <Header.Content>
                             <Header.Subheader>Gerard Gueco</Header.Subheader>
                             <Header.Subheader>Jun 27, 2019 · 4 min read</Header.Subheader>

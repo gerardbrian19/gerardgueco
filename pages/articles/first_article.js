@@ -105,17 +105,36 @@ export default class First_Article extends Component {
                                         <ArticleParagraph
                                         art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
                                         />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
+                                        <ArticleParagraph
+                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
+                                        />
                                         
                                        
                                         </div>
+
                                         <ArticleCategories
                                         tag={"College"}
                                         />
-                                        {/* <ArticleClaps/>
-                                        <Divider section/>
-                                        <Divider section/> */}
+                                        <ArticleClaps/>
+                                        <Divider clearing section />
+
                                         <AboutAuthor/>
-                                        <Divider section/>
+                                        <Divider clearing section/>
                                         <ArticleComment/>
                                         <Footer/>
                                     </Grid.Column>

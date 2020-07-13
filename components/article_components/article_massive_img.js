@@ -6,8 +6,8 @@ import {
 export default class MassiveImage extends Component{
     render(){
         return(
-            <div id="massive_image">
-                <Image src={this.props.massiveimg_src} centered size='massive'/>
+            <div className="massive_image">
+                <Image className="full-img" src={this.props.massiveimg_src} centered size='massive'/>
             <p className="center">{this.props.massiveimg_cap}</p>
             </div>
         )

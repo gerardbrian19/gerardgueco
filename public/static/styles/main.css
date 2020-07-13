@@ -898,7 +898,7 @@ body {
   font-size: 15.8px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .featured-headline h1.ui.header {
     font-size: 25.2px !important;
   }
@@ -906,6 +906,124 @@ body {
     margin-top: -50px;
     margin-bottom: 20px;
   }
+  .article-content .title_author_header h1.ui.header {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+  .article-content .title_author_header h1.ui.header .sub.header {
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+  .article-content .text-content h1.ui.header {
+    font-size: 26px !important;
+  }
+  .article-content .text-content p {
+    font-size: 18px !important;
+  }
+  .article-content .author .info {
+    margin-top: 20px;
+  }
+  .article-content .author .info p {
+    font-size: 15px !important;
+  }
+}
+
+.article-content {
+  margin-top: 50px;
+}
+
+.article-content .title_author_header h1.ui.header {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.article-content .title_author_header h1.ui.header .sub.header {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.article-content .title_author_header .author-header {
+  margin-bottom: 100px;
+}
+
+.article-content .title_author_header .author-header h3.ui.right.floated.header a {
+  padding-top: 10px;
+  font-size: 20px;
+  vertical-align: middle;
+  opacity: 0.7;
+  color: black;
+}
+
+.article-content .massive_image {
+  margin-bottom: 75px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.article-content .massive_image p.center {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+.article-content .massive_image .full-img {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.article-content .text-content {
+  margin-bottom: 65px;
+}
+
+.article-content .text-content h1.ui.header {
+  font-size: 36px;
+}
+
+.article-content .text-content p {
+  line-height: 32px;
+  margin-top: 0.86em;
+  font-size: 21px;
+  margin-bottom: -0.46em;
+  letter-spacing: -0.00em;
+  word-break: break-word;
+  font-weight: 400;
+}
+
+.article-content .categories {
+  margin-bottom: 25px;
+}
+
+.article-content .claps .ui.medium.basic.label {
+  border: none;
+}
+
+.article-content .claps h4.ui.right.floated.header a i {
+  padding-top: 10px;
+  font-size: 20px;
+  vertical-align: middle;
+  opacity: 0.7;
+  color: black;
+}
+
+.article-content .author .info p {
+  margin-top: 0.86em;
+  font-size: 16px;
+  margin-bottom: -0.46em;
+  letter-spacing: -0.00em;
+  word-break: break-word;
+  font-weight: 400;
 }
 
 .swiper-container {
