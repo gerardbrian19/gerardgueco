@@ -2,7 +2,8 @@ import React, {Component} from 'react'
 import {
     Header,
     Button,
-    Comment
+    Comment,
+    Form
 } from 'semantic-ui-react'
 
 export default class ArticleComment extends Component{
