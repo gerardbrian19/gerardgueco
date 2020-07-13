@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Header, Image, Grid} from 'semantic-ui-react'
 
-export default class AboutAuthor extends Component {
+export default class AboutMe extends Component {
     render() {
         return (
             <div className="author">
