@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import {scaleRotate as Menu} from 'react-burger-menu'
 import {
     Container,
     Header,
@@ -8,7 +7,7 @@ import {
     Button,
     Grid,
     Divider
-} from 'semantic-ui-react'
+} from 'semantic-ui-react' 
 import Sidebar from '../../components/sidebar'
 import Footer from '../../components/footer'
 import TitleAuthorHeader from '../../components/article_components/title_author_header'
@@ -19,6 +18,10 @@ import ArticleCategories from '../../components/article_components/article_categ
 import ArticleClaps from '../../components/article_components/article_claps'
 import AboutAuthor from '../../components/article_components/about_me'
 import ArticleComment from '../../components/article_components/article_comments'
+import InlineImage from '../../components/article_components/article_inline_img'
+import ArticleItems from '../../components/article_components/article_items'
+import ArticleCode from '../../components/article_components/article_code'
+import ArticleList from '../../components/article_components/article_list'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 
@@ -117,7 +120,12 @@ export default class First_Article extends Component {
                                         <ArticleParagraph
                                         art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
                                         />
-                                        
+                                        <InlineImage 
+                                        inl_img_src={"https://miro.medium.com/max/800/1*H_LlA2a_THc4bRuk2M1ojQ.gif"} 
+                                        inl_cap={"I updated my projects and redesigned my portfolio using JavaScript and it’s worth it! From WordPress/jQuery to React, MySQL to NoSQL, and Metro Flat UI to Gradients!"} />
+                                        <ArticleItems/>
+                                        <ArticleCode/>
+                                        <ArticleList/>
                                        
                                         </div>
 
