@@ -6,7 +6,9 @@ export default class ArticleCategories extends Component {
         return (
             <div className="categories">
                 <Label.Group size='large'>
-                    <Label>{this.props.tag}</Label>
+                    {this.props.tag.map((subData, k) => 
+                    <Label key={k}>{subData}</Label>
+                    )}
                 </Label.Group>
             </div>
         )

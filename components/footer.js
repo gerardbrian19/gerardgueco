@@ -16,9 +16,9 @@ export default class Footer extends Component {
                 </p>
                 <p className="credits">
                     {/* Made with ♥️ from 🇵🇭 */}
-                    Made with
+                    Made with &nbsp;
                     <Icon size='small' color='red' name='heart'/>
-                    from
+                    from &nbsp;
                     <Flag name='ph'/>
                 </p>
                 <Divider hidden section/>
