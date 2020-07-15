@@ -9,15 +9,16 @@ import 'swiper/css/swiper.css'
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
-    const res = await import('../public/static/data/projects.json')
-    return { pageProps: res }
+    const res = await import('../public/static/data/projects.json');
+    const data = await import('../public/static/data/articles.json');
+    return { pageProps: res, articleProps: data }
   }
   componentDidMount(e) {
     console.log(this.props)
 }
   
   render() {
-    const { Component, pageProps, router } = this.props
+    const { Component, pageProps, router, articleProps } = this.props
     return (
       <div>
         <Head>
@@ -46,7 +47,7 @@ export default class MyApp extends App {
           <meta property="og:description" content="He is a software engineer, graphic design enthusiast, and an aspiring change-maker." key="description" />
         </Head>
         <PageTransition timeout={300} classNames="page-transition">
-          <Component {...pageProps} key={router.route} />
+          <Component {...pageProps} {...articleProps} key={router.route} />
         </PageTransition>
         <style jsx global>{`
           .page-transition-enter {

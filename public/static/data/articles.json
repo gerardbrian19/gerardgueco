@@ -1,14 +1,15 @@
 [
     {
+        "articlenum": "1",
         "header": "An open letter to recent college graduates",
         "preview": [
             {
-                "img": "",
-                "caption": ""
+                "img": "https://miro.medium.com/max/4150/1*GGft_aeszJhTQV1sPMzDWQ.jpeg",
+                "caption": "https://www.unpakt.com/blog/7-best-cities-for-young-college-grads/"
             }
         ],
         "article_header": "Hey, congratulations!",
-        "article content": [
+        "article_content": [
             {
                 "p": "You spent a long four or five years in which you have shared great moments with other people. You have been through unforgettable experiences. You made friends that you will probably keep for the rest of your life. A whole host of moments that, without a doubt, have marked in your life."
             },
@@ -101,6 +102,71 @@
             "Graduation",
             "University",
             "Goals"
+        ]
+    },
+    {
+        "articlenum": "2",
+        "header": "Portfolio Challenge: From Flat UI to Gradients",
+        "preview": [
+            {
+                "img": "https://miro.medium.com/max/1200/1*OgTVc-8IhuxfpDHzQgXX7Q.jpeg",
+                "caption": "2016 vs 2019 Portfolio"
+            }
+        ],
+        "article_content": [
+            {
+                "p": "Last week, I posted my first article here about my experience on using Next.JS + Semantic UI on React. Today, I finished working on my latest online portfolio which is also made with these technologies."
+            },
+            {
+                "p": "It was 2012 when I created my first online portfolio — the same year when I studied HTML in my computer subject during high school. My first portfolio was just a plain website, it has a boring content — no CSS, no html font customization, no images, just paragraphs and headings."
+            },
+            {
+                "p": "After a year, a group of developers found my site and contacted me to help them develop their Facebook Autolike system which is an online tool that can increase likes on any public Facebook posts or even pages. It was the time when I started learning full-stack web development. After a while, I developed my own Facebook Autolike website which is made specifically for the students from my school. I became exposed in using HTML5, CSS, jQuery, PHP and Facebook Graph API."
+            },
+            {
+                "p": "Later on, together with my friend from Davao, we decided to establish a website called Wootrends, a platform for quizzes and entertainment apps for Facebook. Our website was able to acquire an average of 1 million monthly active users in a year; got thousands likes on Facebook and achieved an average of 6 million monthly page views in our website.. Those were the days when earning US$1000+ per month is super easy. Some of our apps are even featured in the national TV. Unfortunately, after sometime, we had so many competitors and loss a large number of users. And so, eventually we closed the website."
+            },
+            {
+                "p": "But everything started from there.. I got client projects, learned new programming languages, created mobile-responsive sites, joined programming-related organizations, and finally redesigned my online portfolio which happened to be a Single Page Application (SPA)."
+            },
+            {
+                "p": "Go back to that scenario when you turned 17 and made that decision to study this profession."
+            },
+            {
+                "p": "But now it’s not like before. These years have brought you to maturity and growth. You now have a different view of money and are very likely realized the difficulty of getting it today."
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/800/1*Xiwgf8LfUcUlNVKXT7pykg.gif",
+                      "caption": "Back then, I was so inspired in the look of Microsoft’s Metro UI so I created the layout of my page together with Metro Flat UI CSS and some CSS3 animations."
+                    }
+                  ]
+            },
+            {
+                "p": "Developing this page wasn’t really hard as I made it with WordPress and MySQL. I used this portfolio for more than two years; its content is being updated from time to time, however, when I started working as a full-time, I never had a chance to edit it."
+            },
+            {
+                "p": "I remember one time when I was applying for a job, a recruiter told me that although I have great skills, the content of my portfolio isn’t enough for them to take my application move forward to their recruitment process. I get discouraged and later realized they’re right.. I guess I really have to update my “two-year” old portfolio."
+            },
+            {
+                "p": "And so I did!"
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/800/1*Xiwgf8LfUcUlNVKXT7pykg.gif",
+                      "caption": "Back then, I was so inspired in the look of Microsoft’s Metro UI so I created the layout of my page together with Metro Flat UI CSS and some CSS3 animations."
+                    }
+                  ]
+            }
+        ],
+        "categories": [
+            "Web Development",
+            "ReactJS",
+            "NextJS",
+            "SemanticUI",
+            "React"
         ]
     }
 ]

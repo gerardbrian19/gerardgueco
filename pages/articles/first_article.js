@@ -6,7 +6,7 @@ import {
     Icon,
     Button,
     Grid,
-    Divider
+    Divider,Flag
 } from 'semantic-ui-react' 
 import Sidebar from '../../components/sidebar'
 import Footer from '../../components/footer'
@@ -87,58 +87,63 @@ export default class First_Article extends Component {
                             <Grid centered>
                                 <Grid.Row>
                                     <Grid.Column computer={10} tablet={16} mobile={16}>
-                                        <TitleAuthorHeader
-                                        header_title={"How to Cultivate Your Curiosity"}
-                                        header_description={"Science tells us how to encourage curiosity in children—I wanted a system for staying curious as an adult"}
-                                        />
-                                        <MassiveImage
-                                        massiveimg_src={"https://miro.medium.com/max/4150/1*GGft_aeszJhTQV1sPMzDWQ.jpeg"}
-                                        massiveimg_cap={"https://www.unpakt.com/blog/7-best-cities-for-young-college-grads/"}
-                                        />
-                                        <div className="text-content">
-                                        <ArticleHeader
-                                        art_header={"Hey, congratulations!"}
-                                        />
-                                        <ArticleParagraph
-                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
-                                        />
-                                        <ArticleParagraph
-                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
-                                        />
-                                        <ArticleParagraph
-                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
-                                        />
-                                        <ArticleParagraph
-                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
-                                        />
-                                        <ArticleParagraph
-                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
-                                        />
-                                        <ArticleParagraph
-                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
-                                        />
-                                        <ArticleParagraph
-                                        art_p={"I never gave curiosity much thought or considered myself a particularly curious person. It’s not that I lacked curiosity — I just never thought of it as a skill you could nurture with time and practice."}
-                                        />
-                                        <InlineImage 
-                                        inl_img_src={"https://miro.medium.com/max/800/1*H_LlA2a_THc4bRuk2M1ojQ.gif"} 
-                                        inl_cap={"I updated my projects and redesigned my portfolio using JavaScript and it’s worth it! From WordPress/jQuery to React, MySQL to NoSQL, and Metro Flat UI to Gradients!"} />
-                                        <ArticleItems/>
-                                        <ArticleCode/>
-                                        <ArticleList/>
-                                       
-                                        </div>
-
-                                        <ArticleCategories
-                                        tag={"College"}
-                                        />
-                                        <ArticleClaps/>
+                                        {Object.keys(this.props).map((data, i) => {
+                                            return this.props[data].articlenum == "1" ?
+                                            <div key={i}>
+                                                <TitleAuthorHeader
+                                                header_title={typeof(this.props[data].header) == 'string' ? this.props[data].header : null}
+                                                header_description={typeof(this.props[data].header_desc) == 'string' ? this.props[data].header_desc : null}
+                                                /> 
+                                                {typeof(this.props[data].preview) == 'object' ? 
+                                                 this.props[data].preview.map((subData, j) => (
+                                                    <div key={j}>
+                                                        <MassiveImage
+                                                        massiveimg_src={typeof(subData.img) == 'string' ? subData.img : null}
+                                                        massiveimg_cap={typeof(subData.caption) == 'string' ? subData.caption : null}
+                                                        />
+                                                    </div>
+                                                 ))
+                                                : null}
+                                                <div className="text-content">
+                                                    <ArticleHeader
+                                                    art_header={typeof(this.props[data].article_header) == 'string' ? this.props[data].article_header : null}
+                                                    />
+                                                    {typeof(this.props[data].article_content) == 'object' ? 
+                                                    this.props[data].article_content.map((subData, k) => (
+                                                    <div key={k}>
+                                                        <ArticleParagraph
+                                                        art_p={typeof(subData.p) == 'string' ? subData.p : null}
+                                                        />
+                                                    </div>
+                                                 ))
+                                                : null}
+                                                </div>
+                                                {typeof(this.props[data].categories) == 'object' ? 
+                                                    <ArticleCategories
+                                                    tag={this.props[data].categories}
+                                                    /> 
+                                                : null}
+                                                
+                                                
+                                            </div> : null
+                                         })}
+                                         <ArticleClaps/>
                                         <Divider clearing section />
 
                                         <AboutAuthor/>
                                         <Divider clearing section/>
                                         <ArticleComment/>
-                                        <Footer/>
+                                        <div>
+                                            <Divider hidden section/>
+                                            <p className="credits">
+                                                {/* Made with ♥️ from 🇵🇭 */}
+                                                Made with &nbsp;
+                                                <Icon size='small' color='red' name='heart'/>
+                                                from &nbsp;
+                                                <Flag name='ph'/>
+                                            </p>
+                                            <Divider hidden section/>
+                                        </div>
                                     </Grid.Column>
                                 </Grid.Row>
 
