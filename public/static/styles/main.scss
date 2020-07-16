@@ -916,7 +916,7 @@ body {
     }
     .article_code{
         .ui.message{
-            margin-top: 56px;
+            margin-bottom: 50px;
             padding: 20px;
             code{
                 margin-bottom: -0.09em;
@@ -930,7 +930,7 @@ body {
         }
     }
     .article_list{
-        margin-top: 56px;
+        margin-bottom: 50px;
         .ui.bulleted.list{
             .item{
                 margin-top: 1.05em;
@@ -941,6 +941,7 @@ body {
             }
         }
     }
+
 
    
 //-------------------------

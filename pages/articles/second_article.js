@@ -124,6 +124,7 @@ export default class Second_Article extends Component {
                                                     )
                                                     )
                                                     : null}
+                                                    <ArticleItems/>
                                                 </div>
                                                 {typeof(this.props[data].categories) == 'object' ? 
                                                     <ArticleCategories
@@ -134,6 +135,7 @@ export default class Second_Article extends Component {
                                                 
                                             </div> : null
                                          })}
+                                         
                                          <ArticleClaps/>
                                         <Divider clearing section />
 
