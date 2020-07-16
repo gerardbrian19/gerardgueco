@@ -1053,7 +1053,7 @@ body {
 }
 
 .article_code .ui.message {
-  margin-top: 56px;
+  margin-bottom: 50px;
   padding: 20px;
 }
 
@@ -1068,7 +1068,7 @@ body {
 }
 
 .article_list {
-  margin-top: 56px;
+  margin-bottom: 50px;
 }
 
 .article_list .ui.bulleted.list .item {

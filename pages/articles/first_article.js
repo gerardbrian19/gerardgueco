@@ -6,10 +6,10 @@ import {
     Icon,
     Button,
     Grid,
-    Divider,Flag
-} from 'semantic-ui-react' 
+    Divider,
+    Flag
+} from 'semantic-ui-react'
 import Sidebar from '../../components/sidebar'
-import Footer from '../../components/footer'
 import TitleAuthorHeader from '../../components/article_components/title_author_header'
 import MassiveImage from '../../components/article_components/article_massive_img'
 import ArticleParagraph from '../../components/article_components/article_paragraph'
@@ -47,16 +47,14 @@ export default class First_Article extends Component {
         return (
             <div id="App">
                 {/* Sidebar Start */}
-                    <Sidebar 
-                    pageWrapId={"main-content"}
-                    outerContainerId={"App"}
+                <Sidebar 
+                    pageWrapId={"main-content"} outerContainerId={"App"}
                     isOpen={this.state.menuOpen}
-                    onStateChange={(state) => this.handleStateChange(state)}
-                    active={"home"}/> 
+                    onStateChange={(state) => this.handleStateChange(state)} active={"home"}/> 
                 {/* Sidebar End */}
 
                 <main id="main-content">
-                    <Container>
+                    <Container> 
                         {/* Header Start */}
                         <div className="header-content">
                             <div>
@@ -74,65 +72,50 @@ export default class First_Article extends Component {
                                 </Header>
                             </div>
                             <div>
-                                <Button basic icon size='big'
-                                    onClick={
-                                        () => this.toggleMenu()
-                                }>
+                                <Button basic icon size='big'onClick={() => this.toggleMenu()}>
                                     <Icon name='bars'/>
                                 </Button>
                             </div>
                         </div>
                         {/* Header End */}
+
                         <div className="article-content">
                             <Grid centered>
                                 <Grid.Row>
                                     <Grid.Column computer={10} tablet={16} mobile={16}>
-                                        {Object.keys(this.props).map((data, i) => {
-                                            return this.props[data].articlenum == "1" ?
-                                            <div key={i}>
-                                                <TitleAuthorHeader
-                                                header_title={typeof(this.props[data].header) == 'string' ? this.props[data].header : null}
-                                                header_description={typeof(this.props[data].header_desc) == 'string' ? this.props[data].header_desc : null}
-                                                /> 
-                                                {typeof(this.props[data].preview) == 'object' ? 
-                                                 this.props[data].preview.map((subData, j) => (
-                                                    <div key={j}>
-                                                        <MassiveImage
-                                                        massiveimg_src={typeof(subData.img) == 'string' ? subData.img : null}
-                                                        massiveimg_cap={typeof(subData.caption) == 'string' ? subData.caption : null}
-                                                        />
-                                                    </div>
-                                                 ))
-                                                : null}
-                                                <div className="text-content">
-                                                    <ArticleHeader
-                                                    art_header={typeof(this.props[data].article_header) == 'string' ? this.props[data].article_header : null}
-                                                    />
-                                                    {typeof(this.props[data].article_content) == 'object' ? 
-                                                    this.props[data].article_content.map((subData, k) => (
-                                                    <div key={k}>
-                                                        <ArticleParagraph
-                                                        art_p={typeof(subData.p) == 'string' ? subData.p : null}
-                                                        />
-                                                    </div>
-                                                 ))
-                                                : null}
-                                                </div>
-                                                {typeof(this.props[data].categories) == 'object' ? 
-                                                    <ArticleCategories
-                                                    tag={this.props[data].categories}
-                                                    /> 
-                                                : null}
-                                                
-                                                
-                                            </div> : null
-                                         })}
-                                         <ArticleClaps/>
-                                        <Divider clearing section />
+                                        {Object.keys(this.props).map((data, i) => 
+                                        {return this.props[data].articlenum == "1" ?
+                                        <div key={i}>
+                                            <TitleAuthorHeader
+                                            header_title={typeof(this.props[data].header) == 'string' ? this.props[data].header : null}
+                                            header_description={typeof(this.props[data].header_desc) == 'string' ? this.props[data].header_desc : null}
+                                            />
+                                            {typeof(this.props[data].preview) == 'object' ? 
+                                            this.props[data].preview.map((subData, j) => (
 
+                                            <div key={j}> <MassiveImage massiveimg_src={typeof(subData.img) == 'string' ? subData.img : null} massiveimg_cap={typeof(subData.caption) == 'string' ? subData.caption : null} /> </div> )) : null}
+                                            
+                                            <div className="text-content">
+                                                
+                                                {typeof(this.props[data].article_content) == 'object' ? this.props[data].article_content.map((subData, k) => Object.getOwnPropertyNames(subData).map((data, l) =>
+                                                
+                                                data == "article_header" ? <div key={k}> <ArticleHeader art_header={typeof(subData.article_header) == 'string' ? subData.article_header : null} /> </div> :
+                                                data == "p" ? <div key={k}> <ArticleParagraph art_p={typeof(subData.p) == 'string' ? subData.p : null} /> </div> :
+                                                data == "article_items" ? <div key={k}> <ArticleItems article_items={subData.article_items} /> </div> :
+                                                data == "article_list" ? <div key={k}> <ArticleList article_list={subData.article_list} /> </div> :
+                                                data == "code" ? <div key={k}> <ArticleCode code={typeof(subData.code) == 'string' ? subData.code : null} /> </div> :
+                                                data == "inl_img" ? subData.inl_img.map((sData, a) => ( <div key={k}><InlineImage inl_img_src={sData.img} inl_cap={typeof(sData.caption) == 'string' ? sData.caption : null} /></div>)) : 
+                                                null )) : null}
+                                            </div>
+                                                {typeof(this.props[data].categories) == 'object' ? <ArticleCategories tag={this.props[data].categories}/> : null}
+                                        </div> : null })}
+                                         
+                                        <ArticleClaps/>
+                                        <Divider clearing section />
                                         <AboutAuthor/>
                                         <Divider clearing section/>
                                         <ArticleComment/>
+                                        
                                         <div>
                                             <Divider hidden section/>
                                             <p className="credits">
@@ -144,6 +127,7 @@ export default class First_Article extends Component {
                                             </p>
                                             <Divider hidden section/>
                                         </div>
+
                                     </Grid.Column>
                                 </Grid.Row>
 
