@@ -10,10 +10,10 @@
         ],
         "article_content": [
             {
-                "p": "You spent a long four or five years in which you have shared great moments with other people. You have been through unforgettable experiences. You made friends that you will probably keep for the rest of your life. A whole host of moments that, without a doubt, have marked in your life."
+                "article_header": "Hey, congratulations!"
             },
             {
-                "article_header": "Hey, congratulations!"
+                "p": "You spent a long four or five years in which you have shared great moments with other people. You have been through unforgettable experiences. You made friends that you will probably keep for the rest of your life. A whole host of moments that, without a doubt, have marked in your life."
             },
             {
                 "p": "You also had to go through some bittersweet circumstances during these years, such as those terrible exams and quizzes that you had to memorize; those boring internship tasks that you had to spend so many hours on and which unfortunately had little impact on your professional training; professors whose courses you had to catch up with and who made you think about the quality of schooling that cost you so much, and so on."
@@ -95,9 +95,71 @@
             },
             {
                 "p": "Without further ado, I want to congratulate you again for that long-awaited graduation. You finally made it!"
+            }
+        ],
+        "categories": [
+            "College",
+            "Motivation",
+            "Graduation",
+            "University",
+            "Goals"
+        ]
+    },
+    {
+        "articlenum": "2",
+        "header": "Portfolio Challenge: From Flat UI to Gradients",
+        "preview": [
+            {
+                "img": "https://miro.medium.com/max/1200/1*OgTVc-8IhuxfpDHzQgXX7Q.jpeg",
+                "caption": "2016 vs 2019 Portfolio"
+            }
+        ],
+        "article_content": [
+            {
+                "p": "Last week, I posted my first article here about my experience on using Next.JS + Semantic UI on React. Today, I finished working on my latest online portfolio which is also made with these technologies."
             },
             {
-                "code": "var numbers_m2 = []; \nfor (i = 0; i < numbers.length; i++) { \nnumbers_m2.push(numbers[i] * 2); \n} \nconsole.log(numbers_m2);"
+                "p": "It was 2012 when I created my first online portfolio — the same year when I studied HTML in my computer subject during high school. My first portfolio was just a plain website, it has a boring content — no CSS, no html font customization, no images, just paragraphs and headings."
+            },
+            {
+                "p": "After a year, a group of developers found my site and contacted me to help them develop their Facebook Autolike system which is an online tool that can increase likes on any public Facebook posts or even pages. It was the time when I started learning full-stack web development. After a while, I developed my own Facebook Autolike website which is made specifically for the students from my school. I became exposed in using HTML5, CSS, jQuery, PHP and Facebook Graph API."
+            },
+            {
+                "p": "Later on, together with my friend from Davao, we decided to establish a website called Wootrends, a platform for quizzes and entertainment apps for Facebook. Our website was able to acquire an average of 1 million monthly active users in a year; got thousands likes on Facebook and achieved an average of 6 million monthly page views in our website.. Those were the days when earning US$1000+ per month is super easy. Some of our apps are even featured in the national TV. Unfortunately, after sometime, we had so many competitors and loss a large number of users. And so, eventually we closed the website."
+            },
+            {
+                "p": "But everything started from there.. I got client projects, learned new programming languages, created mobile-responsive sites, joined programming-related organizations, and finally redesigned my online portfolio which happened to be a Single Page Application (SPA)."
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/800/1*Xiwgf8LfUcUlNVKXT7pykg.gif",
+                      "caption": "Back then, I was so inspired in the look of Microsoft’s Metro UI so I created the layout of my page together with Metro Flat UI CSS and some CSS3 animations."
+                    }
+                  ]
+            },
+            {
+                "p": "Developing this page wasn’t really hard as I made it with WordPress and MySQL. I used this portfolio for more than two years; its content is being updated from time to time, however, when I started working as a full-time, I never had a chance to edit it."
+            },
+            {
+                "p": "I remember one time when I was applying for a job, a recruiter told me that although I have great skills, the content of my portfolio isn’t enough for them to take my application move forward to their recruitment process. I get discouraged and later realized they’re right.. I guess I really have to update my “two-year” old portfolio."
+            },
+            {
+                "p": "And so I did!"
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/800/1*H_LlA2a_THc4bRuk2M1ojQ.gif",
+                      "caption": "I updated my projects and redesigned my portfolio using JavaScript and it’s worth it! From WordPress/jQuery to React, MySQL to NoSQL, and Metro Flat UI to Gradients!"
+                    }
+                  ]
+            },
+            {
+                "p": "Yes, this page can also be done in WordPress — but think it would be a headache for me to do so. I must say working in this SPA with JavaScript is more maintainable comparing to my old one which is developed using PHP and WordPress."
+            },
+            {
+                "p": "These tools and JavaScript frameworks made it possible:"
             },
             {
                 "article_items": [
@@ -129,6 +191,169 @@
                   ]
             },
             {
+                "p": "You can check my latest portfolio by visiting chcepe.github.io"
+            },
+            {
+                "p": "If you want to know more about how I created this “new portfolio” of mine, please feel free to contact me using the links listed on my page. Thanks! :)"
+            }
+        ],
+        "categories": [
+            "Web Development",
+            "ReactJS",
+            "NextJS",
+            "Semantic UI",
+            "React"
+        ]
+    },
+    {
+        "articlenum": "3",
+        "header": "Managing data with modern JavaScript: map, filter, reduce, find",
+        "preview": [
+            {
+                "img": "https://miro.medium.com/max/1920/1*PCTSrjA4HThSZKMTBtUkkw.png"
+            }
+        ],
+        "article_content": [
+            {
+                "p": "Knowledge about manipulating data in an array or object is very important if you’re working in a project that requires CRUD functions, either with or without a database. Looking back on the days when modern JavaScript was not yet put into practice, it was so difficult to manage a data. Now, it’s super easy by using the built-in functions of ES6+."
+            },
+            {
+                "p": "Learning the modern JavaScript can be confusing if you don’t know what its history is and how its traditional syntax works. You might have seen the term “ECMAScript” somewhere else or heard about “Javascript ES6/7/8” and wondered what it actually means. I suggest if you’re a total beginner in JS and you’re curious about what these terms are for, you might consider reading What’s the difference between JavaScript and ECMAScript? You are also encourage to brush up on the basics of JavaScript from here and continue with this article when you’re all caught up."
+            },
+            {
+                "article_header": ".map()"
+            },
+            {
+                "p": "Map function translate each item from an array into another form of array. Let me give an example. Say you have an array of numbers and you want to multiply every value of each item by 2."
+            },
+            {
+                "code": "// Your array of numbers \nflet numbers = [12, 23, 8, 19, 10];"
+            },
+            {
+                "p": "Using the traditional way of writing a JavaScript code, you might create an empty array and use a loop to meet your goal."
+            },
+            {
+                "code": "var numbers_m2 = []; \nfor (i = 0; i < numbers.length; i++) { \nnumbers_m2.push(numbers[i] * 2); \n} \nconsole.log(numbers_m2);"
+            },
+            {
+                "p": "However, with map function, your code will simply look like this:"
+            },
+            {
+                "code": "var numbers_m2 = []; \nfor (i = 0; i < numbers.length; i++) { \nnumbers_m2.push(numbers[i] * 2); \n} \nconsole.log(numbers_m2);"
+            },
+            {
+                "p": "Did you notice how I eliminated the for loop? That’s because I stored the .map() to numbers_m2 which takes a function as its argument and runs that function on each item in the numbers. The function argument itself takes one argument which is the current item in the numbers — in the code above current item is number."
+            },
+            {
+                "p": "You can even make your code shorter by using an ES6 arrow function which looks like this:"
+            },
+            {
+                "code": "var numbers_m2 = []; \nfor (i = 0; i < numbers.length; i++) { \nnumbers_m2.push(numbers[i] * 2); \n} \nconsole.log(numbers_m2);"
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/662/1*P10HpjSWGqLOeu5gWR0qjQ.jpeg"
+                    }
+                  ]
+            },
+            {
+                "p": "So how does .map() works? Map function returns a new array of equal length, containing transformed items. That is to say, the new array isn’t just a copy of the original array."
+            },
+            {
+                "article_header": ".filter()"
+            },
+            {
+                "p": "Using also the array of numbers example above, what if you only want to get the numbers that is less than or equal to 15? That’s what filter function is for! It is used to remove unwanted items in an array. It returns a new array, but with fewer items than found in the original array."
+            },
+            {
+                "code": "var numbers_m2 = []; \nfor (i = 0; i < numbers.length; i++) { \nnumbers_m2.push(numbers[i] * 2); \n} \nconsole.log(numbers_m2);"
+            },
+            {
+                "p": "Using ES6 arrow function:"
+            },
+            {
+                "code": "var numbers_m2 = []; \nfor (i = 0; i < numbers.length; i++) { \nnumbers_m2.push(numbers[i] * 2); \n} \nconsole.log(numbers_m2);"
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/662/1*fXIsi4BqUMPm0FqDqwULOg.jpeg"
+                    }
+                  ]
+            },
+            {
+                "p": "In in other words, .filter() is basically just like a loop with an if-statement inside: only items that meet the if-condition can make it to the new array."
+            },
+            {
+                "article_header": ".reduce()"
+            },
+            {
+                "p": "Reduce is quite difficult to understand but it’s simply just used to summarize an array into a single value, which can be of any datatype: number, string or even array. It’s like map and filter as it also takes a function as its argument and runs that function on each element, however, reduce needs at least two arguments in its call back function which is an accumulator and the current item in the array. An accumulator basically accumulates all of the callbacks’ returned values."
+            },
+            {
+                "p": "I’m guessing you’re confused. Just keep in mind that with reduce function, you only get one value returned, and it doesn’t need to be an array — it is frequently a number, since .reduce() is good for adding stuff up."
+            },
+            {
+                "p": "For example, you want to get the sum of our array of numbers above. If you’re coding with an old traditional way writing JS, you might write a code that is similar to this:"
+            },
+            {
+                "code": "var numbers_m2 = []; \nfor (i = 0; i < numbers.length; i++) { \nnumbers_m2.push(numbers[i] * 2); \n} \nconsole.log(numbers_m2);"
+            },
+            {
+                "p": "With reduce function, your 6 six lines of code will only be 3. ;)"
+            },
+            {
+                "code": "var numbers_m2 = []; \nfor (i = 0; i < numbers.length; i++) { \nnumbers_m2.push(numbers[i] * 2); \n} \nconsole.log(numbers_m2);"
+            },
+            {
+                "p": "The code above iterates numbers with .reduce(), getting the sum of its items by storing it in total. To make it easier to read, we’ll keep the function curly brackets and return the sum of accumulator and the value of current item."
+            },
+            {
+                "code": "var numbers_m2 = []; \nfor (i = 0; i < numbers.length; i++) { \nnumbers_m2.push(numbers[i] * 2); \n} \nconsole.log(numbers_m2);"
+            },
+            {
+                "p": "The acc parameter is the variable that holds the accumulating total while cur is the current array item."
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/864/1*lK9ZpdwyfpnsUnLPyaMgDA.jpeg"
+                    }
+                  ]
+            },
+            {
+                "p": "So how does .reduce() works? Reduce function basically combine several items from an array through some calculation which later will generate a single value."
+            },
+            {
+                "article_header": ".find() & .findIndex()"
+            },
+            {
+                "p": "Find function is very similar to .filter() and findIndex function is somehow like .reduce(), the difference is .find() returns only the item’s value while .findIndex() only returns the item’s index of the first element in the array that satisfies the provided condition, otherwise undefined or -1 is returned."
+            },
+            {
+                "p": "Say you want to get both value and index of an item in the array of numbers above with a condition number >= 9 and number <= 11. The way how you can do that with ES6 is:"
+            },
+            {
+                "code": "var numbers_m2 = []; \nfor (i = 0; i < numbers.length; i++) { \nnumbers_m2.push(numbers[i] * 2); \n} \nconsole.log(numbers_m2);"
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/782/1*tKcsuf3hz5bcpib30cjHnQ.jpeg"
+                    }
+                  ]
+            },
+            {
+                "p": "Both of these functions can be useful in cases where you need modify your array by Creating, Updating, Deleting, and Moving some elements and you want to keep the order of your initial array."
+            },
+            {
+                "article_header": "Summary"
+            },
+            {
+                "p": "Modern JavaScript has introduced a bunch of syntax improvements."
+            },
+            {
                 "article_list": [
                     {
                         "list_item": "Map evokes a function on every item in an array and it can return anything. It can have something to do in the current item’s value either do a mathematical equation or concatenation."
@@ -145,21 +370,222 @@
                   ]
             },
             {
+                "p": "Using these built-in functions of ES5/ES6+ can help you work with complex data structure easily and develop your programs effortlessly without having lots of codes."
+            }
+        ],
+        "categories": [
+            "JavaScript",
+            "ES6",
+            "Data Structure",
+            "Ecmascript"
+        ]
+    },
+    {
+        "articlenum": "4",
+        "header": "I used Next.js + Semantic UI on my React App and it’s awesome!",
+        "article_content": [
+            {
+                "p": "Whenever we start doing a web project we always think of what framework should we use to create a good-looking elements for our website. Each framework has its own pros and cons, allowing you to choose based on the needs of your project. For example, if your project is simple, then there’s no need to use a complex framework."
+            },
+            {
+                "p": "Most developers preferred on using popular UI frameworks such as Bootstrap, Foundation, and Material UI, however, others, including myself thinks that these frameworks are too overrated and many sites that are using these frameworks end up having a very similar look and feel. I personally like building my projects before with Bootstrap + jQuery, but lately I realized that part of me as a developer has grown tired of seeing sites using Bootstrap in its raw form — in a way, I feel it limits creativity."
+            },
+            {
+                "article_header": "Discovering Next.js"
+            },
+            {
+                "p": "I used to be a developer who uses native PHP and HTML5 together with Bootstrap, CSS3, and jQuery to build full-stack and single page applications (SPAs). Two years ago, I decided to learn how to use React and started experimenting with different frameworks to test its UI and UX capabilities. React was too confusing for me, I spent more than a month trying to solve rendering and configuration problems… And for that reason, I became impatient, so I started looking for an easy-to-use boilerplate for React. Eventually, I found what I was looking for. It’s a framework called Next.js."
+            },
+            {
+                "p": "As documentation says:"
+            },
+            {
+                "p": "Next.js a minimalistic framework for server-rendered React applications."
+            },
+            {
+                "p": "Think about how web apps are created with PHP. You create some files, write PHP code, then simply deploy it. You don’t have to worry about routing much, and the app is rendered on the server by default. That’s exactly what Next.js do. Instead of PHP, you will build your app with JavaScript and React."
+            },
+            {
                 "inl_img": [
                     {
-                      "img": "https://miro.medium.com/max/800/1*Xiwgf8LfUcUlNVKXT7pykg.gif",
-                      "caption": "Back then, I was so inspired in the look of Microsoft’s Metro UI so I created the layout of my page together with Metro Flat UI CSS and some CSS3 animations."
+                      "img": "https://miro.medium.com/max/800/1*4WytZLPdbUkBTYFKkrxNdQ.gif",
+                      "caption": "Some codes written in React with Next JS"
+                    }
+                  ]
+            },
+            {
+                "p": "Here are some cool features Next.js brings to the table taken from learnnextjs.com:"
+            },
+            {
+                "article_list": [
+                    {
+                        "list_item": "Server-rendered by default"
+                    },
+                    {
+                        "list_item": "Automatic code splitting for faster page loads"
+                    },
+                    {
+                        "list_item": "Simple client-side routing (page based)"
+                    },
+                    {
+                        "list_item": "Webpack-based dev environment which supports Hot Module Replacement (HMR)"
+                    },
+                    {
+                        "list_item": "Able to implement with Express or any other Node.js HTTP server"
+                    },
+                    {
+                        "list_item": "Customizable with your own Babel and Webpack configurations"
+                    }
+                  ]
+            },
+            {
+                "p": "I believe anyone who has used this framework will tell you how easy it is to get started in building a react app with Next.js. You can have your react app running without configuring webpack, babel, and other tools and speed up your development workflow."
+            },
+            {
+                "article_header": "Playing around with Semantic UI for React"
+            },
+            {
+                "p": "Another technology I discover while doing a react app was a UI framework called Semantic UI. Just like Bootstrap and other popular frameworks, it’s also open-source and is already used in multiple large-scale production environments."
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/1075/1*FyYRL1miPHhRKQbAf4WPBQ.png",
+                      "caption": "Sample code of a Modal using Semantic UI"
+                    }
+                  ]
+            },
+            {
+                "p": "I already heard about this framework even before, but I was only able to use it when I started developing apps with React. One of the advantages of Semantic UI is it has a lot of UI components to offer. In just few lines of code, you can create beautiful and modern-looking elements just like Cards, Accordions, Modals, and other more that can benefit to the content of your website. Of course, you are free to modify some of its CSS properties if you need to. Also, what I like the most about this framework is it uses five descriptive categories to define re-usable UI components:"
+            },
+            {
+                "p": "A UI Element is a basic building block. It can appear alone or in uniform groups. For example, a button can be independent or put in a button group."
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/529/1*j1HUFHws3CPz7dHRsfH-CA.gif",
+                      "caption": "Buttons can animate to show additional or hidden content."
+                    }
+                  ]
+            },
+            {
+                "p": "A UI Collection is a group of different kinds of elements that are interdependent. For example, a web form can have buttons, inputs, checkboxes, icons, and so forth"
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/537/1*_r7NexMCAqfSY73eO8Ys6g.gif",
+                      "caption": "A form on a dark background may have to invert its color scheme."
+                    }
+                  ]
+            },
+            {
+                "p": " A UI View represents a common piece of website content. For example, a feed or comments section."
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/727/1*-49bTpv3yiYnKkAJBfc_hg.gif",
+                      "caption": "A basic list of comments"
+                    }
+                  ]
+            },
+            {
+                "p": "A UI Module is a component with interactive JavaScript-based functionality. Examples include an accordion, dimmer, modal, and so on."
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/765/1*jt0NsCEjSmcrBDsgBVToFQ.gif",
+                      "caption": "A standard Accordion"
+                    }
+                  ]
+            },
+            {
+                "p": "A UI Behavior is a component that can’t exist independently, but instead is used to inject functionality into other components. For example, the Form Validation behavior provide validation functionality for the Form component."
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/759/1*i38OsPEcGBoxxVviKeX8Bg.png",
+                      "caption": "If a form is in an error state, it will automatically show any error message blocks"
+                    }
+                  ]
+            },
+            {
+                "article_header": "Working and Deploying a React app with Next.js and Semantic UI"
+            },
+            {
+                "p": "This project that I built was developed just in less than two weeks while I was in the bench. I finished this SPA together with my colleague who I also helped to develop a chatbot using Microsoft’s Bot Framework. The project is made for their team who are conducting internal workshops about AI-related stuff."
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/800/1*Qr3m06ZE_DCL3EW6T5LwNw.gif",
+                      "caption": "Landing page built with fullPage.js"
+                    }
+                  ]
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/800/1*nQkCjA0QOet2MhNu5ml2Rw.gif",
+                      "caption": "Learning Materials page built with Semantic UI Accordion"
+                    }
+                  ]
+            },
+            {
+                "p": "Setting up of this project was made with create-next-app boilerplate and deployed on Azure IISNode Web Server."
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/1280/1*JiOR6xSSW5EhdurXJWF21A.png",
+                      "caption": "Necessary files deployed on Azure"
+                    }
+                  ]
+            },
+            {
+                "p": "One of the challenges while working in this project is playing around with CSS3 animations as well as with Spring. I would say creating fancy and smooth animations is harder than creating the whole website."
+            },
+            {
+                "inl_img": [
+                    {
+                      "img": "https://miro.medium.com/max/800/1*XT82yqyeCc2TRlMZJC3xYA.gif",
+                      "caption": "Screenshot of Phoebe — the chatbot"
+                    }
+                  ]
+            },
+            {
+                "p": "Another challenge is the deployment of React app that is made with Next.js on Azure. It took me some time to be able to deploy it successfully. So, if you have a Next.js project and you’re planning to host it on Azure, you can use my created script below which compresses necessary files on your project. After the script is being executed, you can upload this compressed file and extract it on your web app server to start the deployment of your project in the cloud."
+            },
+            {
+                "p": "Overall, my experience in working with Next.js and Semantic UI is very fulfilling. Both of these frameworks are very well documented, and their websites provides many examples for each component. All of this makes learning the framework a pain-free experience. So, if you’re new to React or planning to use it on your future project, the best way to learn it is to get started with Next.js and then later on, you can proceed on building your components with Semantic UI or your preferred UI framework."
+            },
+            {
+                "p": "Additional Resources"
+            },
+            {
+                "article_list": [
+                    {
+                        "list_item": "Next.js Repo"
+                    },
+                    {
+                        "list_item": "Learn Next.js"
+                    },
+                    {
+                        "list_item": "Semantic UI"
                     }
                   ]
             }
-            
         ],
         "categories": [
-            "College",
-            "Motivation",
-            "Graduation",
-            "University",
-            "Goals"
+            "React",
+            "NextJS",
+            "JavaScript",
+            "ES6",
+            "Azure"
         ]
     }
 ]
