@@ -170,7 +170,7 @@ export default class Home extends Component {
                         {/* Footer End */}
                          </Container>
                 </main>
-r
+
             </div>
         )
     }
