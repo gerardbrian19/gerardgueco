@@ -23,6 +23,6 @@
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2",
     "semantic-ui-react-transition-modal": "^0.1.2",
-    "swiper": "^5.4.1"
+    "swiper": "^6.5.1"
   }
 }
